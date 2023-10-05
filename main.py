@@ -1,3 +1,3 @@
 from WorldEditTools import replace
 
-replace.newCommandSeq(type="auto")
+replace.newCommandSeq(ratios="auto")

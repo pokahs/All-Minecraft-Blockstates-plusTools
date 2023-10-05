@@ -1,53 +1,33 @@
 from typing import Any
-import pyperclip
+import pyperclip # pyperclip.copy(final_command)
 
 class blockString:
 
-    def __init__(self) -> None:
-        pass
+    def __init__(self, block) -> None:
+        
+        self.block = block
 
-def newCommandSeq(type):
+        self.half, self.direction = None, None
+
+        if "stairs" in self.block:
+
+            self.half = input("What half? (B/T): ").lower()
+
+            self.direction = input("what direction? (N/E/S/W):")
+
+        elif "slab" in self.block:
+
+            self.half = input("What half? (B/T): ").lower()
+
+
+
+
+def newCommandSeq(ratios=None, block_type_assign=None):
+
+    print(ratios, block_type_assign)
     
     while True: # Get commands until user says they done
 
-        replacive = blockString()
+        replacive = blockString(input("Block to replace: ").lower())
 
 
-final_command = "//rep "
-
-def add(blah):
-    global final_command
-    final_command += blah
-
-target = input("Block to replace: ")
-
-add(target + " ")
-
-
-facing_info = [["N", "E", "S", "W"]]
-
-if "stairs" in target:
-
-    target_facing = input("Facing? (N, E, S, W, Addall): ")
-
-    target_half = input("Type? (Bot, Top): ")
-
-    if target_facing or target_half:
-
-        add("[")
-
-        if target_facing
-
-
-
-    
-
-
-
-
-if "slab" in target:
-    target_type = input("Type? (Bot, Top): ")
-
-
-
-pyperclip.copy(final_command)
