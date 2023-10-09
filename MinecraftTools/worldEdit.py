@@ -58,6 +58,38 @@ import pyperclip # pyperclip.copy(final_command)
 # copy it, open chat, paste, and enter.
 # would be good/necessary for the actual print to be activated by a specified key press (optimal) or timer.
 
+import json
+
+group_data_json = "group_data.json"
+block_data_json = "block_data.json"
+
+block_data, group_data = None, None
+
+try:
+    
+    with open(block_data_json, 'r') as json_file:
+            block_data = json.load(json_file)
+
+except FileNotFoundError:
+    print(f"BIG WARNING! Data file not found: {block_data_json}")
+
+except json.JSONDecodeError:
+    print(f"BIG WARNING! Data in json file formatted wrong: {block_data_json}")
+
+
+try:
+    
+    with open(group_data_json, 'r') as json_file:
+            group_data = json.load(json_file)
+
+except FileNotFoundError:
+    print(f"BIG WARNING! Data file not found: {group_data_json}")
+
+except json.JSONDecodeError:
+    print(f"BIG WARNING! Data in json file formatted wrong: {group_data_json}")
+
+
+
 class replaceCommand:
 
     def __init__(self, auto_ratios=True, replacer_tags_universal=True) -> None:
@@ -85,6 +117,29 @@ class block:
         
         self.block_name = block_name # Add check in json for the name if checkvalidity is True
 
+        if (checkvalidity and self.block_name in block_data) or (not checkvalidity):
+
+            pass
+            # We have now verified the block to be a valid block. (or it isnt but checkvalidity was off)
+            # We will now load tag info from block_data. (Keeping the value for each tag empty for now)
+
+            # The next step depends on if there is merging tag info, and if it group based or not.
+
+            # If no merging tag info, we just go and start asking user for what each tag should be.
+
+            # If tag info but not grouping, then for each tag this block has check use the value defined
+            # for the tag in the tag_filling info coming in. If theres no info for the tag, it's kept empty
+            # and filled out by the user next.
+
+            # If tag_info and grouping, 
+
+        else:
+
+            raise ValueError("The block name '{self.block_name}' is not a legitimate block according to the block data fetched.")
+                
+
+            
+
         # After the block_name has been verified as legimiate, or not due to optimizations, it will now create its own dict var
         # to save and store its tags and the value for each tag. if tag_filling actually is something, it should be a dict for tags.
         # for each tag this block has, it will check if it used in the tag_filling, and if it is make it match to the tags here.
@@ -111,4 +166,7 @@ class replacer(block):
 
             self.ratio = float(input("Put the ratio of how much this block should replace as part of a whole: "))
 
-    
+
+if __name__ == "__main__":
+
+    blok = block("stosne")
