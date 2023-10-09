@@ -60,31 +60,14 @@ import pyperclip # pyperclip.copy(final_command)
 
 class replaceCommand:
 
-    def __init__(self, auto_ratios=True, auto_block_type_assign=True) -> None:
+    def __init__(self, auto_ratios=True, replacer_tags_universal=True) -> None:
         
-        self.auto_ratios = auto_ratios
-        self.auto_block_type_assign = auto_block_type_assign
-
-        self.replacive = blockString(block=input("Block to replace: ").lower())
-
-        self.replacer_count = 0
+        self.target = block(block_name=input("Block to replace: ").lower())
 
         self.replacers = []
 
-        while True:
-
-            self.replacers.append(blockString(block=input("Replacer block: ").lower(), parent_block=self.replacive))
-            if not self.auto_ratios:
-
-                self.replacers[self.replacer_count].ratio = input(int("Ratio for this replace (As a whole number as part of a future total): "))
-
-            self.replacer_count += 1
-
-            if input("Add another replacer block (Y/[anything else]): ").lower() != "y":
-                break
-
     @classmethod
-    def newSet(cls, auto_ratios=True, auto_block_type_assign=True):
+    def newSet(cls, auto_ratios=True, replacer_tags_univeral=True):
 
         pass
 
@@ -94,22 +77,38 @@ class replaceCommand:
         pass
 
 
-class blockString:
 
-    def __init__(self, block, parent_block=False, stair_half=None, slab_half = None, direction=None) -> None:
+
+class block:
+
+    def __init__(self, block_name, checkvalidity=True, tag_filling=False) -> None:
         
-        self.block = block
+        self.block_name = block_name # Add check in json for the name if checkvalidity is True
 
-        if parent_block:
+        # After the block_name has been verified as legimiate, or not due to optimizations, it will now create its own dict var
+        # to save and store its tags and the value for each tag. if tag_filling actually is something, it should be a dict for tags.
+        # for each tag this block has, it will check if it used in the tag_filling, and if it is make it match to the tags here.
 
-            for attr_name, attr_value in vars(parent_block).items():
+        # if there are still tags for this block that are empty after this potential filling process, the user will be asked to fill em out.
+        # The new tags that are filled out for this block will then be returned/saved to update the global tag_filling dict that is used for
+        # block creation. NOTE if the group system is in use here, it should only change the tags in the tag_filling dict for the block's group.
 
-                if not attr_value:
-                    
-                    setattr(self, attr_name, attr_value)
-
-        
+        # NOTE that the tag_filling system should def include an option (prob as the default) to only fill tags for block with same group.
+        # As in if this block is a stair, it should only check for defined tags for the stair group in the tag_filling.
 
 
+class replacer(block):
+
+    def __init__(self, block_name, auto_ratio, tag_filling=False):
+
+        super().__init__(input("Name of replacer block: "), tag_filling=tag_filling)
+
+        if auto_ratio:
+
+            self.ratio = False
+
+        else:
+
+            self.ratio = float(input("Put the ratio of how much this block should replace as part of a whole: "))
 
     
