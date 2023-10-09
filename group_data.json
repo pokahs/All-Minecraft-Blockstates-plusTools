@@ -1,5 +1,5 @@
 {
-    "group_1": {
+    "button": {
         "cases": [
             "acacia_button",
             "bamboo_button",
@@ -34,7 +34,7 @@
             ]
         }
     },
-    "group_2": {
+    "door": {
         "cases": [
             "acacia_door",
             "bamboo_door",
@@ -70,7 +70,7 @@
             ]
         }
     },
-    "group_3": {
+    "empty": {
         "cases": [
             "acacia_fence",
             "acacia_hanging_sign",
@@ -684,7 +684,7 @@
         ],
         "tags": {}
     },
-    "group_4": {
+    "gate": {
         "cases": [
             "acacia_fence_gate",
             "bamboo_fence_gate",
@@ -715,7 +715,7 @@
             ]
         }
     },
-    "group_5": {
+    "axis": {
         "cases": [
             "acacia_log",
             "acacia_wood",
@@ -781,7 +781,7 @@
             ]
         }
     },
-    "group_6": {
+    "pressure_plate": {
         "cases": [
             "acacia_pressure_plate",
             "bamboo_pressure_plate",
@@ -804,7 +804,7 @@
             ]
         }
     },
-    "group_7": {
+    "slab": {
         "cases": [
             "acacia_slab",
             "andesite_slab",
@@ -872,7 +872,7 @@
             ]
         }
     },
-    "group_8": {
+    "stairs": {
         "cases": [
             "acacia_stairs",
             "andesite_stairs",
@@ -948,7 +948,7 @@
             ]
         }
     },
-    "group_9": {
+    "trapdoor": {
         "cases": [
             "acacia_trapdoor",
             "bamboo_trapdoor",
@@ -980,7 +980,7 @@
             ]
         }
     },
-    "group_10": {
+    "power_rail": {
         "cases": [
             "activator_rail",
             "detector_rail",
@@ -1001,7 +1001,7 @@
             ]
         }
     },
-    "group_11": {
+    "facer": {
         "cases": [
             "amethyst_cluster",
             "dispenser",
@@ -1022,7 +1022,7 @@
             ]
         }
     },
-    "group_12": {
+    "cardinal": {
         "cases": [
             "anvil",
             "attached_melon_stem",
@@ -1074,7 +1074,7 @@
             ]
         }
     },
-    "group_13": {
+    "barrel": {
         "cases": [
             "barrel"
         ],
@@ -1093,7 +1093,7 @@
             ]
         }
     },
-    "group_14": {
+    "bee": {
         "cases": [
             "bee_nest",
             "beehive"
@@ -1115,7 +1115,7 @@
             ]
         }
     },
-    "group_15": {
+    "ages": {
         "cases": [
             "beetroots",
             "frosted_ice",
@@ -1131,7 +1131,7 @@
             ]
         }
     },
-    "group_16": {
+    "bell": {
         "cases": [
             "bell"
         ],
@@ -1150,7 +1150,7 @@
             ]
         }
     },
-    "group_17": {
+    "big_dripleaf": {
         "cases": [
             "big_dripleaf"
         ],
@@ -1169,7 +1169,7 @@
             ]
         }
     },
-    "group_18": {
+    "candle": {
         "cases": [
             "black_candle",
             "blue_candle",
@@ -1202,7 +1202,7 @@
             ]
         }
     },
-    "group_19": {
+    "candle_cake": {
         "cases": [
             "black_candle_cake",
             "blue_candle_cake",
@@ -1231,7 +1231,7 @@
             ]
         }
     },
-    "group_20": {
+    "lit": {
         "cases": [
             "blast_furnace",
             "campfire",
@@ -1253,7 +1253,7 @@
             ]
         }
     },
-    "group_21": {
+    "cake": {
         "cases": [
             "cake"
         ],
@@ -1269,7 +1269,7 @@
             ]
         }
     },
-    "group_22": {
+    "calibrated_sculk_sensor": {
         "cases": [
             "calibrated_sculk_sensor"
         ],
@@ -1287,7 +1287,7 @@
             ]
         }
     },
-    "group_23": {
+    "crop": {
         "cases": [
             "carrots",
             "melon_stem",
@@ -1308,7 +1308,7 @@
             ]
         }
     },
-    "group_24": {
+    "cave_vines": {
         "cases": [
             "cave_vines",
             "cave_vines_plant"
@@ -1320,7 +1320,7 @@
             ]
         }
     },
-    "group_25": {
+    "command_block": {
         "cases": [
             "chain_command_block",
             "command_block",
@@ -1341,7 +1341,7 @@
             ]
         }
     },
-    "group_26": {
+    "chorus_flower": {
         "cases": [
             "chorus_flower"
         ],
@@ -1356,7 +1356,7 @@
             ]
         }
     },
-    "group_27": {
+    "cocoa": {
         "cases": [
             "cocoa"
         ],
@@ -1374,7 +1374,7 @@
             ]
         }
     },
-    "group_28": {
+    "comparator": {
         "cases": [
             "comparator"
         ],
@@ -1395,7 +1395,7 @@
             ]
         }
     },
-    "group_29": {
+    "daylight_detector": {
         "cases": [
             "daylight_detector"
         ],
@@ -1406,7 +1406,7 @@
             ]
         }
     },
-    "group_30": {
+    "end_portal_frame": {
         "cases": [
             "end_portal_frame"
         ],
@@ -1423,7 +1423,7 @@
             ]
         }
     },
-    "group_31": {
+    "farmland": {
         "cases": [
             "farmland"
         ],
@@ -1440,7 +1440,7 @@
             ]
         }
     },
-    "group_32": {
+    "item_frame": {
         "cases": [
             "glow_item_frame",
             "item_frame"
@@ -1452,7 +1452,7 @@
             ]
         }
     },
-    "group_33": {
+    "nature_top": {
         "cases": [
             "grass_block",
             "mycelium",
@@ -1465,7 +1465,7 @@
             ]
         }
     },
-    "group_34": {
+    "grindstone": {
         "cases": [
             "grindstone"
         ],
@@ -1483,7 +1483,7 @@
             ]
         }
     },
-    "group_35": {
+    "weighted_pressure_plate": {
         "cases": [
             "heavy_weighted_pressure_plate",
             "light_weighted_pressure_plate"
@@ -1509,7 +1509,7 @@
             ]
         }
     },
-    "group_36": {
+    "hopper": {
         "cases": [
             "hopper"
         ],
@@ -1523,7 +1523,7 @@
             ]
         }
     },
-    "group_37": {
+    "jigsaw": {
         "cases": [
             "jigsaw"
         ],
@@ -1544,7 +1544,7 @@
             ]
         }
     },
-    "group_38": {
+    "lantern": {
         "cases": [
             "lantern",
             "soul_lantern"
@@ -1556,7 +1556,7 @@
             ]
         }
     },
-    "group_39": {
+    "plant": {
         "cases": [
             "large_fern",
             "lilac",
@@ -1574,7 +1574,7 @@
             ]
         }
     },
-    "group_40": {
+    "light": {
         "cases": [
             "light"
         ],
@@ -1599,7 +1599,7 @@
             ]
         }
     },
-    "group_41": {
+    "facer_power": {
         "cases": [
             "lightning_rod",
             "observer"
@@ -1619,7 +1619,7 @@
             ]
         }
     },
-    "group_42": {
+    "mangrove_propagule": {
         "cases": [
             "mangrove_propagule"
         ],
@@ -1637,7 +1637,7 @@
             ]
         }
     },
-    "group_43": {
+    "nether_portal": {
         "cases": [
             "nether_portal"
         ],
@@ -1648,7 +1648,7 @@
             ]
         }
     },
-    "group_44": {
+    "piston": {
         "cases": [
             "piston",
             "sticky_piston"
@@ -1668,7 +1668,7 @@
             ]
         }
     },
-    "group_45": {
+    "piston_head": {
         "cases": [
             "piston_head"
         ],
@@ -1691,7 +1691,7 @@
             ]
         }
     },
-    "group_46": {
+    "pitcher_crop": {
         "cases": [
             "pitcher_crop"
         ],
@@ -1709,7 +1709,7 @@
             ]
         }
     },
-    "group_47": {
+    "pointed_dripstone": {
         "cases": [
             "pointed_dripstone"
         ],
@@ -1727,7 +1727,7 @@
             ]
         }
     },
-    "group_48": {
+    "cauldron": {
         "cases": [
             "powder_snow_cauldron",
             "water_cauldron"
@@ -1740,7 +1740,7 @@
             ]
         }
     },
-    "group_49": {
+    "rail": {
         "cases": [
             "rail"
         ],
@@ -1759,7 +1759,7 @@
             ]
         }
     },
-    "group_50": {
+    "repeater": {
         "cases": [
             "repeater"
         ],
@@ -1786,7 +1786,7 @@
             ]
         }
     },
-    "group_51": {
+    "respawn_anchor": {
         "cases": [
             "respawn_anchor"
         ],
@@ -1800,7 +1800,7 @@
             ]
         }
     },
-    "group_52": {
+    "scaffolding": {
         "cases": [
             "scaffolding"
         ],
@@ -1811,7 +1811,7 @@
             ]
         }
     },
-    "group_53": {
+    "sculk_catalyst": {
         "cases": [
             "sculk_catalyst"
         ],
@@ -1822,7 +1822,7 @@
             ]
         }
     },
-    "group_54": {
+    "sculk_sensor": {
         "cases": [
             "sculk_sensor"
         ],
@@ -1834,7 +1834,7 @@
             ]
         }
     },
-    "group_55": {
+    "sculk_shrieker": {
         "cases": [
             "sculk_shrieker"
         ],
@@ -1845,7 +1845,7 @@
             ]
         }
     },
-    "group_56": {
+    "sea_pickle": {
         "cases": [
             "sea_pickle"
         ],
@@ -1862,7 +1862,7 @@
             ]
         }
     },
-    "group_57": {
+    "small_dripleaf": {
         "cases": [
             "small_dripleaf"
         ],
@@ -1879,7 +1879,7 @@
             ]
         }
     },
-    "group_58": {
+    "sniffer_egg": {
         "cases": [
             "sniffer_egg"
         ],
@@ -1891,7 +1891,7 @@
             ]
         }
     },
-    "group_59": {
+    "snow": {
         "cases": [
             "snow"
         ],
@@ -1908,7 +1908,7 @@
             ]
         }
     },
-    "group_60": {
+    "structure_block": {
         "cases": [
             "structure_block"
         ],
@@ -1921,7 +1921,7 @@
             ]
         }
     },
-    "group_61": {
+    "suspicious": {
         "cases": [
             "suspicious_gravel",
             "suspicious_sand"
@@ -1935,7 +1935,7 @@
             ]
         }
     },
-    "group_62": {
+    "torchflower_crop": {
         "cases": [
             "torchflower_crop"
         ],
@@ -1946,7 +1946,7 @@
             ]
         }
     },
-    "group_63": {
+    "tripwire": {
         "cases": [
             "tripwire"
         ],
@@ -1973,7 +1973,7 @@
             ]
         }
     },
-    "group_64": {
+    "tripwire_hook": {
         "cases": [
             "tripwire_hook"
         ],
@@ -1994,7 +1994,7 @@
             ]
         }
     },
-    "group_65": {
+    "turtle_egg": {
         "cases": [
             "turtle_egg"
         ],
