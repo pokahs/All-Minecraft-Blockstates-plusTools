@@ -88,18 +88,58 @@ except FileNotFoundError:
 except json.JSONDecodeError:
     print(f"BIG WARNING! Data in json file formatted wrong: {group_data_json}")
 
+# How will program handle a brick stair being replaced by oak stair
+
+# Since they are both stairs, sharing tags via group or not doesnt matter.
+
+# The dif b/w sharing tags or not is big as either:
+# - No share : you just ask for tags both individually, and it turns into 1 command.
+# - Share : the tags you got for the brick stair will carry over to the oak stair, and it turns into 1 command.
+
+# However, say we wanna do all the values of tag end-to-end, or we want to leave one tag as a default/not defining it.
+# This problem leads to the solution of any tag being able to have the value of "all" or "none".
+# The rest of the program doesnt change much; the "all" or "none" values if they come up will be treaten as any other value,
+# meaning they can be part of the tag sharing system or can be used when a user defines a tag value directly.
+
+# The signifigance of the "all" and "none" tags only come out at the time or parsing. While the "none" tag is easy;
+# the tag is simply ignored.
+'''
+Making group sharing default since realized errors and weird shit occurs if one group has a num of values for a tag but other group has a different
+num of values for the same tag. A block might be assigned a tag value that it actually cant have.
+
+
+if block's defined group in shared_tags:
+
+    for each tag in group:
+    
+        make block's own tag = defined tag
+
+else:
+
+    ask user for each tag, and return new info to update global shared_tags
+
+
+'''
 
 
 class replaceCommand:
 
-    def __init__(self, auto_ratios=True, replacer_tags_universal=True) -> None:
+    def __init__(self, auto_ratios=True, shared_tags=True) -> None:
         
         self.target = block(block_name=input("Block to replace: ").lower())
+
+        self.shared_tags = shared_tags
+
+        if not type(self.shared_tags) is dict: # Will happen unless user inputted a dictionary with tags values already
+
+            self.shared_tags = {}
+
+
 
         self.replacers = []
 
     @classmethod
-    def newSet(cls, auto_ratios=True, replacer_tags_univeral=True):
+    def newSet(cls, auto_ratios=True, shared_tags=True):
 
         pass
 
@@ -113,22 +153,42 @@ class replaceCommand:
 
 class block:
 
-    def __init__(self, block_name, checkvalidity=True, tag_filling=False) -> None:
+    def __init__(self, block_name, checkvalidity=True, shared_tags=False) -> None:
         
         self.block_name = block_name # Add check in json for the name if checkvalidity is True
 
+        self.tag_info = {}
+
         if (checkvalidity and self.block_name in block_data) or (not checkvalidity):
 
-            pass
+            
             # We have now verified the block to be a valid block. (or it isnt but checkvalidity was off)
-            # We will now load tag info from block_data. (Keeping the value for each tag empty for now)
 
             # The next step depends on if there is merging tag info, and if it group based or not.
+            # NOTE I gotta add a group attr to each block in block_data for this shit to work
+            if shared_tags:
+
+                cur_block_group = block_data[self.block_name]["group"] # just saving group of this block since used so much
+
+                if cur_block_group in shared_tags:
+                    for tag in shared_tags[cur_block_group]:
+                        # Not sure exactl what "tag" will be, if its like half : top or just like half or whatever
+                        # but in this state you just add each tag to the current tag_info, since rn every single tag will be defined
+                        # with this system if we entered this stage we dont need to ask user for anything
+                        print(tag) # for now just printing to check ltr, but gotta add it to tag_info
+
+                else: # The group's tags hasnt been defined, so now we ask user for each.
+                    
+                    for base_tag in group_data[cur_block_group]["tags"]:
+                        print(base_tag) # Me not know how to handle json but we need the name of tag here, then we ask user what
+                        # they want for it and then we save it. NOTE we also gotta figure out how to return the new data here.
+
+                
 
             # If no merging tag info, we just go and start asking user for what each tag should be.
 
             # If tag info but not grouping, then for each tag this block has check use the value defined
-            # for the tag in the tag_filling info coming in. If theres no info for the tag, it's kept empty
+            # for the tag in the shared_tags info coming in. If theres no info for the tag, it's kept empty
             # and filled out by the user next.
 
             # If tag_info and grouping, 
@@ -136,27 +196,16 @@ class block:
         else:
 
             raise ValueError("The block name '{self.block_name}' is not a legitimate block according to the block data fetched.")
-                
-
-            
-
-        # After the block_name has been verified as legimiate, or not due to optimizations, it will now create its own dict var
-        # to save and store its tags and the value for each tag. if tag_filling actually is something, it should be a dict for tags.
-        # for each tag this block has, it will check if it used in the tag_filling, and if it is make it match to the tags here.
-
-        # if there are still tags for this block that are empty after this potential filling process, the user will be asked to fill em out.
-        # The new tags that are filled out for this block will then be returned/saved to update the global tag_filling dict that is used for
-        # block creation. NOTE if the group system is in use here, it should only change the tags in the tag_filling dict for the block's group.
-
-        # NOTE that the tag_filling system should def include an option (prob as the default) to only fill tags for block with same group.
-        # As in if this block is a stair, it should only check for defined tags for the stair group in the tag_filling.
-
+        
+    def parse(self):
+        pass # Just parse block name and the tags. Ratio parsing is something that the replace class (ratio class?) adds on.
+        
 
 class replacer(block):
 
-    def __init__(self, block_name, auto_ratio, tag_filling=False):
+    def __init__(self, block_name, auto_ratio, shared_tags=False):
 
-        super().__init__(input("Name of replacer block: "), tag_filling=tag_filling)
+        super().__init__(input("Name of replacer block: "), shared_tags=shared_tags)
 
         if auto_ratio:
 
