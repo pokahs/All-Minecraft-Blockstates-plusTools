@@ -1251,7 +1251,7 @@
     }
   },
   "black_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -1413,7 +1413,7 @@
     }
   },
   "blast_furnace": {
-    "group": "lit",
+    "group": "lit_cardinal",
     "tags": {
       "facing": [
         "east",
@@ -1485,7 +1485,7 @@
     }
   },
   "blue_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -1780,7 +1780,7 @@
     }
   },
   "brown_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -2014,7 +2014,7 @@
     }
   },
   "campfire": {
-    "group": "lit",
+    "group": "lit_cardinal",
     "tags": {
       "facing": [
         "east",
@@ -2044,7 +2044,7 @@
     }
   },
   "candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -3291,7 +3291,7 @@
     }
   },
   "cyan_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -4583,7 +4583,7 @@
     }
   },
   "furnace": {
-    "group": "lit",
+    "group": "lit_cardinal",
     "tags": {
       "facing": [
         "east",
@@ -4828,7 +4828,7 @@
     }
   },
   "gray_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -4978,7 +4978,7 @@
     }
   },
   "green_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -5857,7 +5857,7 @@
     }
   },
   "light_blue_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -5996,7 +5996,7 @@
     }
   },
   "light_gray_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -6192,7 +6192,7 @@
     }
   },
   "lime_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -6346,7 +6346,7 @@
     }
   },
   "magenta_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -7620,7 +7620,7 @@
     }
   },
   "orange_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -7889,7 +7889,7 @@
     }
   },
   "pink_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -8833,7 +8833,7 @@
     }
   },
   "purple_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -9108,7 +9108,7 @@
     }
   },
   "red_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -9384,7 +9384,7 @@
     "tags": {}
   },
   "redstone_lamp": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -9393,7 +9393,7 @@
     }
   },
   "redstone_ore": {
-    "group": "redstone_ore",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -9402,7 +9402,7 @@
     }
   },
   "redstone_torch": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -9411,7 +9411,7 @@
     }
   },
   "redstone_wall_torch": {
-    "group": "lit",
+    "group": "lit_cardinal",
     "tags": {
       "facing": [
         "east",
@@ -9793,7 +9793,7 @@
     "tags": {}
   },
   "smoker": {
-    "group": "lit",
+    "group": "lit_cardinal",
     "tags": {
       "facing": [
         "east",
@@ -9963,7 +9963,7 @@
     "tags": {}
   },
   "soul_campfire": {
-    "group": "lit",
+    "group": "lit_cardinal",
     "tags": {
       "facing": [
         "east",
@@ -11039,6 +11039,17 @@
     "group": "empty",
     "tags": {}
   },
+  "wall_torch": {
+    "group": "cardinal",
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  },
   "warped_button": {
     "group": "button",
     "tags": {
@@ -11661,7 +11672,7 @@
     }
   },
   "white_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,
@@ -11831,7 +11842,7 @@
     }
   },
   "yellow_candle_cake": {
-    "group": "candle_cake",
+    "group": "lit",
     "tags": {
       "lit": [
         false,

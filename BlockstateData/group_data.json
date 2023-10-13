@@ -337,36 +337,6 @@
       ]
     }
   },
-  "lit": {
-    "cases": [
-      "black_candle_cake",
-      "blue_candle_cake",
-      "brown_candle_cake",
-      "candle_cake",
-      "cyan_candle_cake",
-      "gray_candle_cake",
-      "green_candle_cake",
-      "light_blue_candle_cake",
-      "light_gray_candle_cake",
-      "lime_candle_cake",
-      "magenta_candle_cake",
-      "orange_candle_cake",
-      "pink_candle_cake",
-      "purple_candle_cake",
-      "red_candle_cake",
-      "redstone_lamp",
-      "redstone_torch",
-      "white_candle_cake",
-      "yellow_candle_cake",
-      "redstone_ore"
-    ],
-    "tags": {
-      "lit": [
-        false,
-        true
-      ]
-    }
-  },
   "cardinal": {
     "cases": [
       "anvil",
@@ -1615,6 +1585,36 @@
         13,
         14,
         15
+      ]
+    }
+  },
+  "lit": {
+    "cases": [
+      "black_candle_cake",
+      "blue_candle_cake",
+      "brown_candle_cake",
+      "candle_cake",
+      "cyan_candle_cake",
+      "gray_candle_cake",
+      "green_candle_cake",
+      "light_blue_candle_cake",
+      "light_gray_candle_cake",
+      "lime_candle_cake",
+      "magenta_candle_cake",
+      "orange_candle_cake",
+      "pink_candle_cake",
+      "purple_candle_cake",
+      "red_candle_cake",
+      "redstone_lamp",
+      "redstone_ore",
+      "redstone_torch",
+      "white_candle_cake",
+      "yellow_candle_cake"
+    ],
+    "tags": {
+      "lit": [
+        false,
+        true
       ]
     }
   },

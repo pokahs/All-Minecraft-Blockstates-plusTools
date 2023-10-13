@@ -142,11 +142,11 @@ if __name__ == "__main__":
 
     # Converts and organizes all data based off the group_data.json, so if thats not where you want new data coming from you gotta change this.
 
-    sort_group_data('/GroupedData/group_data.json', '/GroupedData/group_data.json')
+    sort_group_data('BlockstateData/group_data.json', 'BlockstateData/group_data.json')
     
-    create_grouped_block_data('/GroupedData/group_data.json', '/GroupedData/grouped_block_data.json')
+    create_grouped_block_data('BlockstateData/group_data.json', 'BlockstateData/grouped_block_data.json')
 
-    create_nongrouped_block_data('/GroupedData/grouped_block_data.json', 'block_data')
+    create_nongrouped_block_data('BlockstateData/grouped_block_data.json', 'BlockstateData/block_data.json')
 
     # and yes this code was blatantly 90% chatgptd
 

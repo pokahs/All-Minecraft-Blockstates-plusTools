@@ -10119,6 +10119,16 @@
   "void_air": {
     "tags": {}
   },
+  "wall_torch": {
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  },
   "warped_button": {
     "tags": {
       "face": [
