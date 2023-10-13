@@ -1,2729 +1,2726 @@
 {
-    "button": {
-        "cases": [
-            "acacia_button",
-            "bamboo_button",
-            "birch_button",
-            "cherry_button",
-            "crimson_button",
-            "dark_oak_button",
-            "jungle_button",
-            "lever",
-            "mangrove_button",
-            "oak_button",
-            "polished_blackstone_button",
-            "spruce_button",
-            "stone_button",
-            "warped_button"
-        ],
-        "tags": {
-            "face": [
-                "ceiling",
-                "floor",
-                "wall"
-            ],
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "powered": [
-                false,
-                true
-            ]
-        }
-    },
-    "door": {
-        "cases": [
-            "acacia_door",
-            "bamboo_door",
-            "birch_door",
-            "cherry_door",
-            "crimson_door",
-            "dark_oak_door",
-            "iron_door",
-            "jungle_door",
-            "mangrove_door",
-            "oak_door",
-            "spruce_door",
-            "warped_door"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "half": [
-                "lower",
-                "upper"
-            ],
-            "hinge": [
-                "left",
-                "right"
-            ],
-            "open": [
-                false,
-                true
-            ]
-        }
-    },
-    "fencepane": {
-            "cases": [
-                "acacia_fence",
-                "bamboo_fence",
-                "birch_fence",
-                "black_glass_pane",
-                "blue_glass_pane",
-                "brown_fence",
-                "brown_glass_pane",
-                "cherry_fence",
-                "crimson_fence",
-                "cyan_glass_pane",
-                "dark_oak_fence",
-                "glass_pane",
-                "gray_glass_pane",
-                "green_glass_pane",
-                "iron_bars",
-                "jungle_fence",
-                "light_blue_glass_pane",
-                "light_gray_glass_pane",
-                "lime_glass_pane",
-                "magenta_glass_pane",
-                "mangrove_fence",
-                "oak_fence",
-                "orange_glass_pane",
-                "pink_glass_pane",
-                "purple_glass_pane",
-                "red_glass_pane",
-                "spruce_fence",
-                "warped_fence",
-                "white_glass_pane",
-                "yellow_glass_pane"
-                
-            ],
-            "tags": {
-                "east": [
-                    false,
-                    true
-                ],
-                "north": [
-                    false,
-                    true
-                ],
-                "south": [
-                    false,
-                    true
-                ],
-                "waterlogged": [
-                    false,
-                    true
-                ],
-                "west": [
-                    false,
-                    true
-                ]
-            }
-    },
-    "hanging_sign": {
-        "cases": [
-            "acacia_hanging_sign",
-            "bamboo_hanging_sign",
-            "birch_hanging_sign",
-            "cherry_hanging_sign",
-            "crimson_hanging_sign",
-            "dark_oak_hanging_sign",
-            "jungle_hanging_sign",
-            "mangrove_hanging_sign",
-            "oak_hanging_sign",
-            "spruce_hanging_sign",
-            "warped_hanging_sign"
-        ],
-        "tags": {
-            "attached": [
-                false,
-                true
-            ],
-            "rotation": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ],
-            "waterlogged": [
-                false,
-                true
-            ]
-        }
-},
-"sign": {
+  "ages": {
     "cases": [
-        "acacia_sign",
-        "bamboo_sign",
-        "birch_sign",
-        "cherry_sign",
-        "crimson_sign",
-        "dark_oak_sign",
-        "jungle_sign",
-        "mangrove_sign",
-        "oak_sign",
-        "spruce_sign",
-        "warped_sign"
+      "beetroots",
+      "frosted_ice",
+      "nether_wart",
+      "sweet_berry_bush"
     ],
     "tags": {
-        "rotation": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
-        ],
-        "waterlogged": [
-            false,
-            true
-        ]
+      "age": [
+        0,
+        1,
+        2,
+        3
+      ]
     }
-},
-"headbanner": {
+  },
+  "axis": {
     "cases": [
-        "black_banner",
-        "blue_banner",
-        "brown_banner",
-        "creeper_head",
-        "cyan_banner",
-        "dragon_head",
-        "gray_banner",
-        "green_banner",
-        "light_blue_banner",
-        "light_gray_banner",
-        "lime_banner",
-        "magenta_banner",
-        "orange_banner",
-        "piglin_head",
-        "pink_banner",
-        "player_head",
-        "purple_banner",
-        "red_banner",
-        "skeleton_skull",
-        "wither_skeleton_skull",
-        "white_banner",
-        "yellow_banner",
-        "zombie_head"
+      "acacia_log",
+      "acacia_wood",
+      "bamboo_block",
+      "basalt",
+      "birch_log",
+      "birch_wood",
+      "bone_block",
+      "chain",
+      "cherry_log",
+      "cherry_wood",
+      "crimson_hyphae",
+      "crimson_stem",
+      "dark_oak_log",
+      "dark_oak_wood",
+      "deepslate",
+      "hay_block",
+      "infested_deepslate",
+      "jungle_log",
+      "jungle_wood",
+      "mangrove_log",
+      "mangrove_wood",
+      "muddy_mangrove_roots",
+      "oak_log",
+      "oak_wood",
+      "ochre_froglight",
+      "pearlescent_froglight",
+      "polished_basalt",
+      "purpur_pillar",
+      "quartz_pillar",
+      "spruce_log",
+      "spruce_wood",
+      "stripped_acacia_log",
+      "stripped_acacia_wood",
+      "stripped_bamboo_block",
+      "stripped_birch_log",
+      "stripped_birch_wood",
+      "stripped_cherry_log",
+      "stripped_cherry_wood",
+      "stripped_crimson_hyphae",
+      "stripped_crimson_stem",
+      "stripped_dark_oak_log",
+      "stripped_dark_oak_wood",
+      "stripped_jungle_log",
+      "stripped_jungle_wood",
+      "stripped_mangrove_log",
+      "stripped_mangrove_wood",
+      "stripped_oak_log",
+      "stripped_oak_wood",
+      "stripped_spruce_log",
+      "stripped_spruce_wood",
+      "stripped_warped_hyphae",
+      "stripped_warped_stem",
+      "verdant_froglight",
+      "warped_hyphae",
+      "warped_stem"
     ],
     "tags": {
-
-        "rotation": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
-        ]
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
     }
-},
-"wall_sign": {
+  },
+  "bamboo": {
     "cases": [
-        "acacia_wall_hanging_sign",
-        "acacia_wall_sign",
-        "bamboo_wall_hanging_sign",
-        "bamboo_wall_sign",
-        "birch_wall_hanging_sign",
-        "birch_wall_sign",
-        "brain_coral_wall_fan",
-        "bubble_coral_wall_fan",
-        "cherry_wall_hanging_sign",
-        "cherry_wall_sign",
-        "crimson_wall_hanging_sign",
-        "crimson_wall_sign",
-        "dark_oak_wall_hanging_sign",
-        "dark_oak_wall_sign",
-        "dead_brain_coral_wall_fan",
-        "dead_bubble_coral_wall_fan",
-        "dead_fire_coral_wall_fan",
-        "dead_horn_coral_wall_fan",
-        "dead_tube_coral_wall_fan",
-        "ender_chest",
-        "fire_coral_wall_fan",
-        "horn_coral_wall_fan",
-        "jungle_wall_hanging_sign",
-        "jungle_wall_sign",
-        "mangrove_wall_hanging_sign",
-        "mangrove_wall_sign",
-        "oak_wall_hanging_sign",
-        "oak_wall_sign",
-        "spruce_wall_hanging_sign",
-        "spruce_wall_sign",
-        "tube_coral_wall_fan",
-        "warped_wall_hanging_sign",
-        "warped_wall_sign"
-        
+      "bamboo"
     ],
     "tags": {
-        "facing": [
-            "east",
-            "north",
-            "south",
-            "west"
-        ],
-        "waterlogged": [
-            false,
-            true
-        ]
+      "age": [
+        0,
+        1
+      ],
+      "leaves": [
+        "large",
+        "none",
+        "small"
+      ],
+      "stage": [
+        0,
+        1
+      ]
     }
-},
-    "leaves": {
-        "cases": [
-            "acacia_leaves",
-            "azalea_leaves",
-            "birch_leaves",
-            "cherry_leaves",
-            "dark_oak_leaves",
-            "jungle_leaves",
-            "mangrove_leaves",
-            "oak_leaves",
-            "spruce_leaves"
-        ],
-        "tags": {
-            "distance": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-            ],
-            "persistent": [
-                false,
-                true
-            ],
-            "waterlogged": [
-                false,
-                true
-            ]
-        }
-},
-    "bamboo": {
-        "cases": [
-            "bamboo"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1
-            ],
-            "leaves": [
-                "large",
-                "none",
-                "small"
-            ],
-            "stage": [
-                0,
-                1
-            ]
-        }
-},
-    "empty": {
-        "cases": [
-            "acacia_planks",
-            "air",
-            "allium",
-            "amethyst_block",
-            "ancient_debris",
-            "andesite",
-            "azalea",
-            "azure_bluet",
-            "bamboo_mosaic",
-            "bamboo_planks",
-            "barrier",
-            "beacon",
-            "bedrock",
-            "birch_planks",
-            "black_carpet",
-            "black_concrete",
-            "black_concrete_powder",
-            "black_stained_glass",
-            "black_terracotta",
-            "black_wool",
-            "blackstone",
-            "blue_carpet",
-            "blue_concrete",
-            "blue_concrete_powder",
-            "blue_ice",
-            "blue_orchid",
-            "blue_stained_glass",
-            "blue_terracotta",
-            "blue_wool",
-            "bookshelf",
-            "brain_coral_block",
-            "bricks",
-            "brown_carpet",
-            "brown_concrete",
-            "brown_concrete_powder",
-            "brown_mushroom",
-            "brown_stained_glass",
-            "brown_terracotta",
-            "brown_wool",
-            "bubble_column",
-            "bubble_coral_block",
-            "budding_amethyst",
-            "cactus",
-            "calcite",
-            "cartography_table",
-            "cauldron",
-            "cave_air",
-            "cherry_planks",
-            "chiseled_deepslate",
-            "chiseled_nether_bricks",
-            "chiseled_polished_blackstone",
-            "chiseled_quartz_block",
-            "chiseled_red_sandstone",
-            "chiseled_sandstone",
-            "chiseled_stone_bricks",
-            "clay",
-            "coal_block",
-            "coal_ore",
-            "coarse_dirt",
-            "cobbled_deepslate",
-            "cobblestone",
-            "cobweb",
-            "copper_block",
-            "copper_ore",
-            "cornflower",
-            "cracked_deepslate_bricks",
-            "cracked_deepslate_tiles",
-            "cracked_nether_bricks",
-            "cracked_polished_blackstone_bricks",
-            "cracked_stone_bricks",
-            "crafting_table",
-            "crimson_fungus",
-            "crimson_nylium",
-            "crimson_planks",
-            "crimson_roots",
-            "crying_obsidian",
-            "cut_copper",
-            "cut_red_sandstone",
-            "cut_sandstone",
-            "cyan_carpet",
-            "cyan_concrete",
-            "cyan_concrete_powder",
-            "cyan_stained_glass",
-            "cyan_terracotta",
-            "cyan_wool",
-            "dandelion",
-            "dark_oak_planks",
-            "dark_prismarine",
-            "dead_brain_coral_block",
-            "dead_bubble_coral_block",
-            "dead_bush",
-            "dead_fire_coral_block",
-            "dead_horn_coral_block",
-            "dead_tube_coral_block",
-            "decorated_pot",
-            "deepslate_bricks",
-            "deepslate_coal_ore",
-            "deepslate_copper_ore",
-            "deepslate_diamond_ore",
-            "deepslate_emerald_ore",
-            "deepslate_gold_ore",
-            "deepslate_iron_ore",
-            "deepslate_lapis_ore",
-            "deepslate_redstone_ore",
-            "deepslate_tiles",
-            "diamond_block",
-            "diamond_ore",
-            "diorite",
-            "dirt",
-            "dirt_path",
-            "dragon_egg",
-            "dried_kelp_block",
-            "dripstone_block",
-            "emerald_block",
-            "emerald_ore",
-            "enchanting_table",
-            "end_gateway",
-            "end_portal",
-            "end_stone",
-            "end_stone_bricks",
-            "exposed_copper",
-            "exposed_cut_copper",
-            "fern",
-            "fire_coral_block",
-            "fletching_table",
-            "flower_pot",
-            "flowering_azalea",
-            "frogspawn",
-            "gilded_blackstone",
-            "glass",
-            "glowstone",
-            "gold_block",
-            "gold_ore",
-            "granite",
-            "grass",
-            "gravel",
-            "gray_carpet",
-            "gray_concrete",
-            "gray_concrete_powder",
-            "gray_stained_glass",
-            "gray_terracotta",
-            "gray_wool",
-            "green_carpet",
-            "green_concrete",
-            "green_concrete_powder",
-            "green_stained_glass",
-            "green_terracotta",
-            "green_wool",
-            "hanging_roots",
-            "honey_block",
-            "honeycomb_block",
-            "horn_coral_block",
-            "ice",
-            "infested_chiseled_stone_bricks",
-            "infested_cobblestone",
-            "infested_cracked_stone_bricks",
-            "infested_mossy_stone_bricks",
-            "infested_stone",
-            "infested_stone_bricks",
-            "iron_block",
-            "iron_ore",
-            "jungle_planks",
-            "kelp_plant",
-            "lapis_block",
-            "lapis_ore",
-            "lava_cauldron",
-            "light_blue_carpet",
-            "light_blue_concrete",
-            "light_blue_concrete_powder",
-            "light_blue_stained_glass",
-            "light_blue_terracotta",
-            "light_blue_wool",
-            "light_gray_carpet",
-            "light_gray_concrete",
-            "light_gray_concrete_powder",
-            "light_gray_stained_glass",
-            "light_gray_terracotta",
-            "light_gray_wool",
-            "lily_of_the_valley",
-            "lily_pad",
-            "lime_carpet",
-            "lime_concrete",
-            "lime_concrete_powder",
-            "lime_stained_glass",
-            "lime_terracotta",
-            "lime_wool",
-            "lodestone",
-            "magenta_carpet",
-            "magenta_concrete",
-            "magenta_concrete_powder",
-            "magenta_stained_glass",
-            "magenta_terracotta",
-            "magenta_wool",
-            "magma_block",
-            "mangrove_planks",
-            "mangrove_roots",
-            "melon",
-            "moss_block",
-            "moss_carpet",
-            "mossy_cobblestone",
-            "mossy_stone_bricks",
-            "mud",
-            "mud_bricks",
-            "nether_bricks",
-            "nether_gold_ore",
-            "nether_quartz_ore",
-            "nether_sprouts",
-            "nether_wart_block",
-            "netherite_block",
-            "netherrack",
-            "oak_planks",
-            "obsidian",
-            "orange_carpet",
-            "orange_concrete",
-            "orange_concrete_powder",
-            "orange_stained_glass",
-            "orange_terracotta",
-            "orange_tulip",
-            "orange_wool",
-            "oxeye_daisy",
-            "oxidized_copper",
-            "oxidized_cut_copper",
-            "packed_ice",
-            "packed_mud",
-            "pink_carpet",
-            "pink_concrete",
-            "pink_concrete_powder",
-            "pink_petals",
-            "pink_stained_glass",
-            "pink_terracotta",
-            "pink_tulip",
-            "pink_wool",
-            "polished_andesite",
-            "polished_blackstone",
-            "polished_blackstone_bricks",
-            "polished_deepslate",
-            "polished_diorite",
-            "polished_granite",
-            "poppy",
-            "potted_acacia_sapling",
-            "potted_allium",
-            "potted_azalea_bush",
-            "potted_azure_bluet",
-            "potted_bamboo",
-            "potted_birch_sapling",
-            "potted_blue_orchid",
-            "potted_brown_mushroom",
-            "potted_cactus",
-            "potted_cherry_sapling",
-            "potted_cornflower",
-            "potted_crimson_fungus",
-            "potted_crimson_roots",
-            "potted_dandelion",
-            "potted_dark_oak_sapling",
-            "potted_dead_bush",
-            "potted_fern",
-            "potted_flowering_azalea_bush",
-            "potted_jungle_sapling",
-            "potted_lily_of_the_valley",
-            "potted_mangrove_propagule",
-            "potted_oak_sapling",
-            "potted_orange_tulip",
-            "potted_oxeye_daisy",
-            "potted_pink_tulip",
-            "potted_poppy",
-            "potted_red_mushroom",
-            "potted_red_tulip",
-            "potted_spruce_sapling",
-            "potted_torchflower",
-            "potted_warped_fungus",
-            "potted_warped_roots",
-            "potted_white_tulip",
-            "potted_wither_rose",
-            "powder_snow",
-            "prismarine",
-            "prismarine_bricks",
-            "pumpkin",
-            "purple_carpet",
-            "purple_concrete",
-            "purple_concrete_powder",
-            "purple_stained_glass",
-            "purple_terracotta",
-            "purple_wool",
-            "purpur_block",
-            "quartz_block",
-            "quartz_bricks",
-            "raw_copper_block",
-            "raw_gold_block",
-            "raw_iron_block",
-            "red_carpet",
-            "red_concrete",
-            "red_concrete_powder",
-            "red_mushroom",
-            "red_nether_bricks",
-            "red_sand",
-            "red_sandstone",
-            "red_stained_glass",
-            "red_terracotta",
-            "red_tulip",
-            "red_wool",
-            "redstone_block",
-            "reinforced_deepslate",
-            "rooted_dirt",
-            "sand",
-            "sandstone",
-            "sculk",
-            "sea_lantern",
-            "seagrass",
-            "shroomlight",
-            "slime_block",
-            "smithing_table",
-            "smooth_basalt",
-            "smooth_quartz",
-            "smooth_red_sandstone",
-            "smooth_sandstone",
-            "smooth_stone",
-            "snow_block",
-            "soul_fire",
-            "soul_sand",
-            "soul_soil",
-            "soul_torch",
-            "spawner",
-            "sponge",
-            "spore_blossom",
-            "spruce_planks",
-            "stone",
-            "stone_bricks",
-            "structure_void",
-            "terracotta",
-            "tinted_glass",
-            "torch",
-            "torchflower",
-            "tube_coral_block",
-            "tuff",
-            "twisting_vines_plant",
-            "void_air",
-            "warped_fungus",
-            "warped_nylium",
-            "warped_planks",
-            "warped_roots",
-            "warped_wart_block",
-            "waxed_copper_block",
-            "waxed_cut_copper",
-            "waxed_exposed_copper",
-            "waxed_exposed_cut_copper",
-            "waxed_oxidized_copper",
-            "waxed_oxidized_cut_copper",
-            "waxed_weathered_copper",
-            "waxed_weathered_cut_copper",
-            "weathered_copper",
-            "weathered_cut_copper",
-            "weeping_vines_plant",
-            "wet_sponge",
-            "white_carpet",
-            "white_concrete",
-            "white_concrete_powder",
-            "white_stained_glass",
-            "white_terracotta",
-            "white_tulip",
-            "white_wool",
-            "wither_rose",
-            "yellow_carpet",
-            "yellow_concrete",
-            "yellow_concrete_powder",
-            "yellow_stained_glass",
-            "yellow_terracotta",
-            "yellow_wool"
-        ],
-        "tags": {}
-    },
-    "gate": {
-        "cases": [
-            "acacia_fence_gate",
-            "bamboo_fence_gate",
-            "birch_fence_gate",
-            "cherry_fence_gate",
-            "crimson_fence_gate",
-            "dark_oak_fence_gate",
-            "jungle_fence_gate",
-            "mangrove_fence_gate",
-            "oak_fence_gate",
-            "spruce_fence_gate",
-            "warped_fence_gate"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "in_wall": [
-                false,
-                true
-            ],
-            "open": [
-                false,
-                true
-            ]
-        }
-    },
-    "axis": {
-        "cases": [
-            "acacia_log",
-            "acacia_wood",
-            "bamboo_block",
-            "basalt",
-            "birch_log",
-            "birch_wood",
-            "bone_block",
-            "chain",
-            "cherry_log",
-            "cherry_wood",
-            "crimson_hyphae",
-            "crimson_stem",
-            "dark_oak_log",
-            "dark_oak_wood",
-            "deepslate",
-            "hay_block",
-            "infested_deepslate",
-            "jungle_log",
-            "jungle_wood",
-            "mangrove_log",
-            "mangrove_wood",
-            "muddy_mangrove_roots",
-            "oak_log",
-            "oak_wood",
-            "ochre_froglight",
-            "pearlescent_froglight",
-            "polished_basalt",
-            "purpur_pillar",
-            "quartz_pillar",
-            "spruce_log",
-            "spruce_wood",
-            "stripped_acacia_log",
-            "stripped_acacia_wood",
-            "stripped_bamboo_block",
-            "stripped_birch_log",
-            "stripped_birch_wood",
-            "stripped_cherry_log",
-            "stripped_cherry_wood",
-            "stripped_crimson_hyphae",
-            "stripped_crimson_stem",
-            "stripped_dark_oak_log",
-            "stripped_dark_oak_wood",
-            "stripped_jungle_log",
-            "stripped_jungle_wood",
-            "stripped_mangrove_log",
-            "stripped_mangrove_wood",
-            "stripped_oak_log",
-            "stripped_oak_wood",
-            "stripped_spruce_log",
-            "stripped_spruce_wood",
-            "stripped_warped_hyphae",
-            "stripped_warped_stem",
-            "verdant_froglight",
-            "warped_hyphae",
-            "warped_stem"
-        ],
-        "tags": {
-            "axis": [
-                "x",
-                "y",
-                "z"
-            ]
-        }
-    },
-    "pressure_plate": {
-        "cases": [
-            "acacia_pressure_plate",
-            "bamboo_pressure_plate",
-            "birch_pressure_plate",
-            "cherry_pressure_plate",
-            "crimson_pressure_plate",
-            "dark_oak_pressure_plate",
-            "jungle_pressure_plate",
-            "mangrove_pressure_plate",
-            "oak_pressure_plate",
-            "polished_blackstone_pressure_plate",
-            "spruce_pressure_plate",
-            "stone_pressure_plate",
-            "warped_pressure_plate"
-        ],
-        "tags": {
-            "powered": [
-                false,
-                true
-            ]
-        }
-    },
-    "slab": {
-        "cases": [
-            "acacia_slab",
-            "andesite_slab",
-            "bamboo_mosaic_slab",
-            "bamboo_slab",
-            "birch_slab",
-            "blackstone_slab",
-            "brick_slab",
-            "cherry_slab",
-            "cobbled_deepslate_slab",
-            "cobblestone_slab",
-            "crimson_slab",
-            "cut_copper_slab",
-            "cut_red_sandstone_slab",
-            "cut_sandstone_slab",
-            "dark_oak_slab",
-            "dark_prismarine_slab",
-            "deepslate_brick_slab",
-            "deepslate_tile_slab",
-            "diorite_slab",
-            "end_stone_brick_slab",
-            "exposed_cut_copper_slab",
-            "granite_slab",
-            "jungle_slab",
-            "mangrove_slab",
-            "mossy_cobblestone_slab",
-            "mossy_stone_brick_slab",
-            "mud_brick_slab",
-            "nether_brick_slab",
-            "oak_slab",
-            "oxidized_cut_copper_slab",
-            "petrified_oak_slab",
-            "polished_andesite_slab",
-            "polished_blackstone_brick_slab",
-            "polished_blackstone_slab",
-            "polished_deepslate_slab",
-            "polished_diorite_slab",
-            "polished_granite_slab",
-            "prismarine_brick_slab",
-            "prismarine_slab",
-            "purpur_slab",
-            "quartz_slab",
-            "red_nether_brick_slab",
-            "red_sandstone_slab",
-            "sandstone_slab",
-            "smooth_quartz_slab",
-            "smooth_red_sandstone_slab",
-            "smooth_sandstone_slab",
-            "smooth_stone_slab",
-            "spruce_slab",
-            "stone_brick_slab",
-            "stone_slab",
-            "warped_slab",
-            "waxed_cut_copper_slab",
-            "waxed_exposed_cut_copper_slab",
-            "waxed_oxidized_cut_copper_slab",
-            "waxed_weathered_cut_copper_slab",
-            "weathered_cut_copper_slab"
-        ],
-        "tags": {
-            "type": [
-                "bottom",
-                "double",
-                "top"
-            ]
-        }
-    },
-    "stairs": {
-        "cases": [
-            "acacia_stairs",
-            "andesite_stairs",
-            "bamboo_mosaic_stairs",
-            "bamboo_stairs",
-            "birch_stairs",
-            "blackstone_stairs",
-            "brick_stairs",
-            "cherry_stairs",
-            "cobbled_deepslate_stairs",
-            "cobblestone_stairs",
-            "crimson_stairs",
-            "cut_copper_stairs",
-            "dark_oak_stairs",
-            "dark_prismarine_stairs",
-            "deepslate_brick_stairs",
-            "deepslate_tile_stairs",
-            "diorite_stairs",
-            "end_stone_brick_stairs",
-            "exposed_cut_copper_stairs",
-            "granite_stairs",
-            "jungle_stairs",
-            "mangrove_stairs",
-            "mossy_cobblestone_stairs",
-            "mossy_stone_brick_stairs",
-            "mud_brick_stairs",
-            "nether_brick_stairs",
-            "oak_stairs",
-            "oxidized_cut_copper_stairs",
-            "polished_andesite_stairs",
-            "polished_blackstone_brick_stairs",
-            "polished_blackstone_stairs",
-            "polished_deepslate_stairs",
-            "polished_diorite_stairs",
-            "polished_granite_stairs",
-            "prismarine_brick_stairs",
-            "prismarine_stairs",
-            "purpur_stairs",
-            "quartz_stairs",
-            "red_nether_brick_stairs",
-            "red_sandstone_stairs",
-            "sandstone_stairs",
-            "smooth_quartz_stairs",
-            "smooth_red_sandstone_stairs",
-            "smooth_sandstone_stairs",
-            "spruce_stairs",
-            "stone_brick_stairs",
-            "stone_stairs",
-            "warped_stairs",
-            "waxed_cut_copper_stairs",
-            "waxed_exposed_cut_copper_stairs",
-            "waxed_oxidized_cut_copper_stairs",
-            "waxed_weathered_cut_copper_stairs",
-            "weathered_cut_copper_stairs"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "half": [
-                "bottom",
-                "top"
-            ],
-            "shape": [
-                "inner_left",
-                "inner_right",
-                "outer_left",
-                "outer_right",
-                "straight"
-            ]
-        }
-    },
-    "trapdoor": {
-        "cases": [
-            "acacia_trapdoor",
-            "bamboo_trapdoor",
-            "birch_trapdoor",
-            "cherry_trapdoor",
-            "crimson_trapdoor",
-            "dark_oak_trapdoor",
-            "iron_trapdoor",
-            "jungle_trapdoor",
-            "mangrove_trapdoor",
-            "oak_trapdoor",
-            "spruce_trapdoor",
-            "warped_trapdoor"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "half": [
-                "bottom",
-                "top"
-            ],
-            "open": [
-                false,
-                true
-            ]
-        }
-    },
-    "power_rail": {
-        "cases": [
-            "activator_rail",
-            "detector_rail",
-            "powered_rail"
-        ],
-        "tags": {
-            "powered": [
-                false,
-                true
-            ],
-            "shape": [
-                "ascending_east",
-                "ascending_north",
-                "ascending_south",
-                "ascending_west",
-                "east_west",
-                "north_south"
-            ]
-        }
-    },
-    "facer": {
-        "cases": [
-            "amethyst_cluster",
-            "black_shulker_box",
-            "blue_shulker_box",
-            "brown_shulker_box",
-            "cyan_shulker_box",
-            "dispenser",
-            "dropper",
-            "end_rod",
-            "gray_shulker_box",
-            "green_shulker_box",
-            "large_amethyst_bud",
-            "light_blue_shulker_box",
-            "light_gray_shulker_box",
-            "lime_shulker_box",
-            "magenta_shulker_box",
-            "medium_amethyst_bud",
-            "orange_shulker_box",
-            "pink_shulker_box",
-            "purple_shulker_box",
-            "red_shulker_box",
-            "shulker_box",
-            "small_amethyst_bud",
-            "white_shulker_box",
-            "yellow_shulker_box"
-        ],
-        "tags": {
-            "facing": [
-                "down",
-                "east",
-                "north",
-                "south",
-                "up",
-                "west"
-            ]
-        }
-    },
-    "cardinal": {
-        "cases": [
-            "anvil",
-            "attached_melon_stem",
-            "attached_pumpkin_stem",
-            "big_dripleaf_stem",
-            "black_glazed_terracotta",
-            "black_wall_banner",
-            "blue_glazed_terracotta",
-            "blue_wall_banner",
-            "brown_glazed_terracotta",
-            "brown_wall_banner",
-            "carved_pumpkin",
-            "chipped_anvil",
-            "creeper_head",
-            "creeper_wall_head",
-            "cyan_glazed_terracotta",
-            "cyan_wall_banner",
-            "damaged_anvil",
-            "dragon_head",
-            "dragon_wall_head",
-            "gray_glazed_terracotta",
-            "gray_wall_banner",
-            "green_glazed_terracotta",
-            "green_wall_banner",
-            "jack_o_lantern",
-            "ladder",
-            "lectern",
-            "light_blue_glazed_terracotta",
-            "light_gray_glazed_terracotta",
-            "lime_glazed_terracotta",
-            "loom",
-            "magenta_glazed_terracotta",
-            "magenta_wall_banner",
-            "orange_glazed_terracotta",
-            "orange_wall_banner",
-            "piglin_head",
-            "piglin_wall_head",
-            "pink_glazed_terracotta",
-            "pink_wall_banner",
-            "player_head",
-            "player_wall_head",
-            "purple_glazed_terracotta",
-            "purple_wall_banner",
-            "red_glazed_terracotta",
-            "red_wall_banner",
-            "skeleton_skull",
-            "skeleton_wall_skull",
-            "soul_wall_torch",
-            "stonecutter",
-            "wither_skeleton_skull",
-            "wither_skeleton_wall_skull",
-            "yellow_glazed_terracotta",
-            "yellow_wall_banner",
-            "zombie_head",
-            "zombie_wall_head"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ]
-        }
-    },
-    "bed": {
-        "cases": [
-            "black_bed",
-            "blue_bed",
-            "brown_bed",
-            "cyan_bed",
-            "gray_bed",
-            "green_bed",
-            "light_blue_bed",
-            "light_gray_bed",
-            "lime_bed",
-            "magenta_bed",
-            "orange_bed",
-            "pink_bed",
-            "purple_bed",
-            "red_bed",
-            "white_bed",
-            "yellow_bed"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "occupied": [
-                false,
-                true
-            ],
-            "part": [
-                "foot",
-                "head"
-            ]
-        }
-    },
-    "barrel": {
-        "cases": [
-            "barrel"
-        ],
-        "tags": {
-            "facing": [
-                "down",
-                "east",
-                "north",
-                "south",
-                "up",
-                "west"
-            ],
-            "open": [
-                false,
-                true
-            ]
-        }
-    },
-    "bee": {
-        "cases": [
-            "bee_nest",
-            "beehive"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "honey_level": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-            ]
-        }
-    },
-    "ages": {
-        "cases": [
-            "beetroots",
-            "frosted_ice",
-            "nether_wart",
-            "sweet_berry_bush"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2,
-                3
-            ]
-        }
-    },
-    "bell": {
-        "cases": [
-            "bell"
-        ],
-        "tags": {
-            "attachment": [
-                "ceiling",
-                "double_wall",
-                "floor",
-                "single_wall"
-            ],
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ]
-        }
-    },
-    "big_dripleaf": {
-        "cases": [
-            "big_dripleaf"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "tilt": [
-                "full",
-                "none",
-                "partial",
-                "unstable"
-            ]
-        }
-    },
-    "candle": {
-        "cases": [
-            "black_candle",
-            "blue_candle",
-            "brown_candle",
-            "candle",
-            "cyan_candle",
-            "gray_candle",
-            "green_candle",
-            "light_blue_candle",
-            "light_gray_candle",
-            "lime_candle",
-            "magenta_candle",
-            "orange_candle",
-            "pink_candle",
-            "purple_candle",
-            "red_candle",
-            "white_candle",
-            "yellow_candle"
-        ],
-        "tags": {
-            "candles": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "lit": [
-                false,
-                true
-            ]
-        }
-    },
-    "candle_cake": {
-        "cases": [
-            "black_candle_cake",
-            "blue_candle_cake",
-            "brown_candle_cake",
-            "candle_cake",
-            "cyan_candle_cake",
-            "gray_candle_cake",
-            "green_candle_cake",
-            "light_blue_candle_cake",
-            "light_gray_candle_cake",
-            "lime_candle_cake",
-            "magenta_candle_cake",
-            "orange_candle_cake",
-            "pink_candle_cake",
-            "purple_candle_cake",
-            "red_candle_cake",
-            "redstone_lamp",
-            "redstone_torch",
-            "white_candle_cake",
-            "yellow_candle_cake"
-        ],
-        "tags": {
-            "lit": [
-                false,
-                true
-            ]
-        }
-    },
-    "lit": {
-        "cases": [
-            "blast_furnace",
-            "campfire",
-            "furnace",
-            "redstone_wall_torch",
-            "smoker",
-            "soul_campfire"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "lit": [
-                false,
-                true
-            ]
-        }
-    },
-    "cake": {
-        "cases": [
-            "cake"
-        ],
-        "tags": {
-            "bites": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6
-            ]
-        }
-    },
-    "calibrated_sculk_sensor": {
-        "cases": [
-            "calibrated_sculk_sensor"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "sculk_sensor_phase": [
-                "active",
-                "cooldown",
-                "inactive"
-            ]
-        }
-    },
-    "crop": {
-        "cases": [
-            "carrots",
-            "melon_stem",
-            "potatoes",
-            "pumpkin_stem",
-            "wheat"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-            ]
-        }
-    },
-    "cave_vines": {
-        "cases": [
-            "cave_vines"
-        ],
-        "tags": {
-            "berries": [
-                false,
-                true
-            ],
-            "age": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15,
-                16,
-                17,
-                18,
-                19,
-                20,
-                21,
-                22,
-                23,
-                24,
-                25
-            ]
-        }
-    },
-    "cave_vines_plant": {
-        "cases": [
-            "cave_vines_plant"
-        ],
-        "tags": {
-            "berries": [
-                false,
-                true
-            ]
-        }
-    },
-    "command_block": {
-        "cases": [
-            "chain_command_block",
-            "command_block",
-            "repeating_command_block"
-        ],
-        "tags": {
-            "conditional": [
-                false,
-                true
-            ],
-            "facing": [
-                "down",
-                "east",
-                "north",
-                "south",
-                "up",
-                "west"
-            ]
-        }
-    },
-    "chorus_flower": {
-        "cases": [
-            "chorus_flower"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-            ]
-        }
-    },
-    "cocoa": {
-        "cases": [
-            "cocoa"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2
-            ],
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ]
-        }
-    },
-    "comparator": {
-        "cases": [
-            "comparator"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "mode": [
-                "compare",
-                "subtract"
-            ],
-            "powered": [
-                false,
-                true
-            ]
-        }
-    },
-    "daylight_detector": {
-        "cases": [
-            "daylight_detector"
-        ],
-        "tags": {
-            "inverted": [
-                false,
-                true
-            ]
-        }
-    },
-    "end_portal_frame": {
-        "cases": [
-            "end_portal_frame"
-        ],
-        "tags": {
-            "eye": [
-                false,
-                true
-            ],
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ]
-        }
-    },
-    "farmland": {
-        "cases": [
-            "farmland"
-        ],
-        "tags": {
-            "moisture": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-            ]
-        }
-    },
-    "item_frame": {
-        "cases": [
-            "glow_item_frame",
-            "item_frame"
-        ],
-        "tags": {
-            "map": [
-                false,
-                true
-            ]
-        }
-    },
-    "redstone_ore": {
-        "cases": [
-            "redstone_ore"
-        ],
-        "tags": {
-            "lit": [
-                false,
-                true
-            ]
-        }
-    },
-    "tnt": {
-        "cases": [
-            "tnt"
-        ],
-        "tags": {
-            "unstable": [
-                false,
-                true
-            ]
-        }
-    },
-    "nature_top": {
-        "cases": [
-            "grass_block",
-            "mycelium",
-            "podzol"
-        ],
-        "tags": {
-            "snowy": [
-                false,
-                true
-            ]
-        }
-    },
-    "grindstone": {
-        "cases": [
-            "grindstone"
-        ],
-        "tags": {
-            "face": [
-                "ceiling",
-                "floor",
-                "wall"
-            ],
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ]
-        }
-    },
-    "redstoneinput": {
-        "cases": [
-            "target",
-            "heavy_weighted_pressure_plate",
-            "light_weighted_pressure_plate"
-        ],
-        "tags": {
-            "power": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ]
-        }
-    },
-    "redstone_wire": {
-        "cases": [
-            "redstone_wire"
-        ],
-        "tags": {
-            "power": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ],
-            "east": [
-                false,
-                true
-            ],
-            "north": [
-                false,
-                true
-            ],
-            "south": [
-                false,
-                true
-            ],
-            "west": [
-                false,
-                true
-            ]
-        }
-    },
-    "hopper": {
-        "cases": [
-            "hopper"
-        ],
-        "tags": {
-            "facing": [
-                "down",
-                "east",
-                "north",
-                "south",
-                "west"
-            ]
-        }
-    },
-    "jigsaw": {
-        "cases": [
-            "jigsaw"
-        ],
-        "tags": {
-            "orientation": [
-                "down_east",
-                "down_north",
-                "down_south",
-                "down_west",
-                "east_up",
-                "north_up",
-                "south_up",
-                "up_east",
-                "up_north",
-                "up_south",
-                "up_west",
-                "west_up"
-            ]
-        }
-    },
-    "lantern": {
-        "cases": [
-            "lantern",
-            "soul_lantern"
-        ],
-        "tags": {
-            "hanging": [
-                false,
-                true
-            ]
-        }
-    },
-    "plant": {
-        "cases": [
-            "large_fern",
-            "lilac",
-            "peony",
-            "pitcher_plant",
-            "rose_bush",
-            "sunflower",
-            "tall_grass",
-            "tall_seagrass"
-        ],
-        "tags": {
-            "half": [
-                "lower",
-                "upper"
-            ]
-        }
-    },
-    "light": {
-        "cases": [
-            "light",
-            "lava",
-            "water"
-        ],
-        "tags": {
-            "level": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ]
-        }
-    },
-    "facer_power": {
-        "cases": [
-            "lightning_rod",
-            "observer"
-        ],
-        "tags": {
-            "facing": [
-                "down",
-                "east",
-                "north",
-                "south",
-                "up",
-                "west"
-            ],
-            "powered": [
-                false,
-                true
-            ]
-        }
-    },
-    "mangrove_propagule": {
-        "cases": [
-            "mangrove_propagule"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2,
-                3,
-                4
-            ],
-            "hanging": [
-                false,
-                true
-            ],
-            "stage": [
-                0,
-                1
-            ],
-            "waterlogged": [
-                false,
-                true
-            ]
-        }
-    },
-    "nether_portal": {
-        "cases": [
-            "nether_portal"
-        ],
-        "tags": {
-            "axis": [
-                "x",
-                "z"
-            ]
-        }
-    },
-    "piston": {
-        "cases": [
-            "piston",
-            "sticky_piston"
-        ],
-        "tags": {
-            "extended": [
-                false,
-                true
-            ],
-            "facing": [
-                "down",
-                "east",
-                "north",
-                "south",
-                "up",
-                "west"
-            ]
-        }
-    },
-    "piston_head": {
-        "cases": [
-            "piston_head"
-        ],
-        "tags": {
-            "facing": [
-                "down",
-                "east",
-                "north",
-                "south",
-                "up",
-                "west"
-            ],
-            "short": [
-                false,
-                true
-            ],
-            "type": [
-                "normal",
-                "sticky"
-            ]
-        }
-    },
-    "moving_piston": {
-        "cases": [
-            "moving_piston"
-        ],
-        "tags": {
-            "facing": [
-                "down",
-                "east",
-                "north",
-                "south",
-                "up",
-                "west"
-            ],
-            "type": [
-                "normal",
-                "sticky"
-            ]
-        }
-    },
-    "chests": {
-        "cases": [
-            "chest",
-            "trapped_chest"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "type": [
-                "left",
-                "normal",
-                "right"
-            ],
-            "waterlogged": [
-                false,
-                true
-            ]
-        }
-    },
-    "pitcher_crop": {
-        "cases": [
-            "pitcher_crop"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2,
-                3,
-                4
-            ],
-            "half": [
-                "lower",
-                "upper"
-            ]
-        }
-    },
-    "pointed_dripstone": {
-        "cases": [
-            "pointed_dripstone"
-        ],
-        "tags": {
-            "thickness": [
-                "base",
-                "frustum",
-                "middle",
-                "tip",
-                "tip_merge"
-            ],
-            "vertical_direction": [
-                "down",
-                "up"
-            ]
-        }
-    },
-    "cauldron": {
-        "cases": [
-            "powder_snow_cauldron",
-            "water_cauldron"
-        ],
-        "tags": {
-            "level": [
-                1,
-                2,
-                3
-            ]
-        }
-    },
-    "composter": {
-        "cases": [
-            "composter"
-        ],
-        "tags": {
-            "level": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8
-            ]
-        }
-    },
-    "brewing_stand": {
-        "cases": [
-            "brewing_stand"
-        ],
-        "tags": {
-            "has_bottle_0": [
-                false,
-                true
-            ],
-            "has_bottle_1": [
-                false,
-                true
-            ],
-            "has_bottle_2": [
-                false,
-                true
-            ]
-        }
-    },
-    "coral": {
-        "cases": [
-            "brain_coral",
-            "brain_coral_fan",
-            "bubble_coral",
-            "bubble_coral_fan",
-            "conduit",
-            "dead_brain_coral",
-            "dead_brain_coral_fan",
-            "dead_bubble_coral",
-            "dead_bubble_coral_fan",
-            "dead_fire_coral",
-            "dead_fire_coral_fan",
-            "dead_horn_coral",
-            "dead_horn_coral_fan",
-            "dead_tube_coral",
-            "dead_tube_coral_fan",
-            "fire_coral",
-            "fire_coral_fan",
-            "horn_coral",
-            "horn_coral_fan",
-            "tube_coral",
-            "tube_coral_fan"
-        ],
-        "tags": {
-            "waterlogged": [
-                false,
-                true
-            ]
-        }
-    },
-    "rail": {
-        "cases": [
-            "rail"
-        ],
-        "tags": {
-            "shape": [
-                "ascending_east",
-                "ascending_north",
-                "ascending_south",
-                "ascending_west",
-                "east_west",
-                "north_east",
-                "north_south",
-                "north_west",
-                "south_east",
-                "south_west"
-            ]
-        }
-    },
-    "repeater": {
-        "cases": [
-            "repeater"
-        ],
-        "tags": {
-            "delay": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "locked": [
-                false,
-                true
-            ],
-            "powered": [
-                false,
-                true
-            ]
-        }
-    },
-    "respawn_anchor": {
-        "cases": [
-            "respawn_anchor"
-        ],
-        "tags": {
-            "charges": [
-                0,
-                1,
-                2,
-                3,
-                4
-            ]
-        }
-    },
-    "scaffolding": {
-        "cases": [
-            "scaffolding"
-        ],
-        "tags": {
-            "bottom": [
-                false,
-                true
-            ]
-        }
-    },
-    "sculk_catalyst": {
-        "cases": [
-            "sculk_catalyst"
-        ],
-        "tags": {
-            "bloom": [
-                false,
-                true
-            ]
-        }
-    },
-    "sculk_sensor": {
-        "cases": [
-            "sculk_sensor"
-        ],
-        "tags": {
-            "sculk_sensor_phase": [
-                "active",
-                "cooldown",
-                "inactive"
-            ]
-        }
-    },
-    "sculk_shrieker": {
-        "cases": [
-            "sculk_shrieker"
-        ],
-        "tags": {
-            "can_summon": [
-                false,
-                true
-            ]
-        }
-    },
-    "sea_pickle": {
-        "cases": [
-            "sea_pickle"
-        ],
-        "tags": {
-            "pickles": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "waterlogged": [
-                false,
-                true
-            ]
-        }
-    },
-    "small_dripleaf": {
-        "cases": [
-            "small_dripleaf"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "half": [
-                "lower",
-                "upper"
-            ]
-        }
-    },
-    "sniffer_egg": {
-        "cases": [
-            "sniffer_egg"
-        ],
-        "tags": {
-            "hatch": [
-                0,
-                1,
-                2
-            ]
-        }
-    },
-    "snow": {
-        "cases": [
-            "snow"
-        ],
-        "tags": {
-            "layers": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8
-            ]
-        }
-    },
-    "structure_block": {
-        "cases": [
-            "structure_block"
-        ],
-        "tags": {
-            "mode": [
-                "corner",
-                "data",
-                "load",
-                "save"
-            ]
-        }
-    },
-    "suspicious": {
-        "cases": [
-            "suspicious_gravel",
-            "suspicious_sand"
-        ],
-        "tags": {
-            "dusted": [
-                0,
-                1,
-                2,
-                3
-            ]
-        }
-    },
-    "saplings": {
-        "cases": [
-            "acacia_sapling",
-            "birch_sapling",
-            "cherry_sapling",
-            "dark_oak_sapling",
-            "jungle_sapling",
-            "oak_sapling",
-            "spruce_sapling",
-            "torchflower_crop"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1
-            ]
-        }
-    },
-    "tripwire": {
-        "cases": [
-            "tripwire"
-        ],
-        "tags": {
-            "attached": [
-                false,
-                true
-            ],
-            "east": [
-                false,
-                true
-            ],
-            "north": [
-                false,
-                true
-            ],
-            "south": [
-                false,
-                true
-            ],
-            "west": [
-                false,
-                true
-            ]
-        }
-    },
-    "tripwire_hook": {
-        "cases": [
-            "tripwire_hook"
-        ],
-        "tags": {
-            "attached": [
-                false,
-                true
-            ],
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "powered": [
-                false,
-                true
-            ]
-        }
-    },
-    "chiseled_bookshelf": {
-        "cases": [
-            "chiseled_bookshelf"
-        ],
-        "tags": {
-            "facing": [
-                "east",
-                "north",
-                "south",
-                "west"
-            ],
-            "slot_0_occupied": [
-                false,
-                true
-            ],
-            "slot_1_occupied": [
-                false,
-                true
-            ],
-            "slot_2_occupied": [
-                false,
-                true
-            ],
-            "slot_3_occupied": [
-                false,
-                true
-            ],
-            "slot_4_occupied": [
-                false,
-                true
-            ],
-            "slot_5_occupied": [
-                false,
-                true
-            ]
-        }
-    },
-    "turtle_egg": {
-        "cases": [
-            "turtle_egg"
-        ],
-        "tags": {
-            "eggs": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "hatch": [
-                0,
-                1,
-                2
-            ]
-        }
-    },
-    "noteblock": {
-        "cases": [
-            "noteblock"
-        ],
-        "tags": {
-            "instrument": [
-                "banjo",
-                "basedrum",
-                "bass",
-                "bell",
-                "bit",
-                "chime",
-                "cow_bell",
-                "creeper",
-                "custom_head",
-                "didgeridoo",
-                "dragon",
-                "flute",
-                "guitar",
-                "harp",
-                "hat",
-                "iron_xylophone",
-                "piglin",
-                "pling",
-                "skeleton",
-                "snare",
-                "wither_skeleton",
-                "xylophone",
-                "zombie"
-            ],
-            "note": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15,
-                16,
-                17,
-                18,
-                19,
-                20,
-                21,
-                22,
-                23,
-                24
-            ],
-            "powered": [
-                false,
-                true
-            ]
-        }
-    },
-    "jukebox": {
-        "cases": [
-            "jukebox"
-        ],
-        "tags": {
-            "has_record": [
-                false,
-                true
-            ]
-        }
-    },
-    "nether_vines": {
-        "cases": [
-            "twisting_vines",
-            "weeping_vines",
-            "kelp"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15,
-                16,
-                17,
-                18,
-                19,
-                20,
-                21,
-                22,
-                23,
-                24,
-                25
-            ]
-        }
-    },
-    "wall": {
-        "cases": [
-            "andesite_wall",
-            "blackstone_wall",
-            "brick_wall",
-            "cobbled_deepslate_wall",
-            "cobblestone_wall",
-            "deepslate_brick_wall",
-            "deepslate_tile_wall",
-            "diorite_wall",
-            "end_stone_brick_wall",
-            "granite_wall",
-            "mossy_cobblestone_wall",
-            "mossy_stone_brick_wall",
-            "mud_brick_wall",
-            "nether_brick_wall",
-            "polished_blackstone_brick_wall",
-            "polished_blackstone_wall",
-            "polished_deepslate_wall",
-            "prismarine_wall",
-            "red_nether_brick_wall",
-            "red_sandstone_wall",
-            "sandstone_wall",
-            "stone_brick_wall"
-        ],
-        "tags": {
-            "east": [
-                "low",
-                "none",
-                "tall"
-            ],
-            "north": [
-                "low",
-                "none",
-                "tall"
-            ],
-            "south": [
-                "low",
-                "none",
-                "tall"
-            ],
-            "up": [
-                false,
-                true
-            ],
-            "waterlogged": [
-                false,
-                true
-            ],
-            "west": [
-                "low",
-                "none",
-                "tall"
-            ]
-        }
-    },
-    "vine": {
-        "cases": [
-            "vine"
-        ],
-        "tags": {
-            "east": [
-                false,
-                true
-            ],
-            "north": [
-                false,
-                true
-            ],
-            "south": [
-                false,
-                true
-            ],
-            "up": [
-                false,
-                true
-            ],
-            "west": [
-                false,
-                true
-            ]
-        }
-    },
-    "glow_lichen": {
-        "cases": [
-            "glow_lichen",
-            "sculk_vein"
-        ],
-        "tags": {
-            "down": [
-                false,
-                true
-            ],
-            "east": [
-                false,
-                true
-            ],
-            "north": [
-                false,
-                true
-            ],
-            "south": [
-                false,
-                true
-            ],
-            "up": [
-                false,
-                true
-            ],
-            "waterlogged": [
-                false,
-                true
-            ],
-            "west": [
-                false,
-                true
-            ]
-        }
-    },
-    "mushroomblock": {
-        "cases": [
-            "mushroom_stem",
-            "brown_mushroom_block",
-            "red_mushroom_block",
-            "chorus_plant"
-        ],
-        "tags": {
-            "down": [
-                false,
-                true
-            ],
-            "east": [
-                false,
-                true
-            ],
-            "north": [
-                false,
-                true
-            ],
-            "south": [
-                false,
-                true
-            ],
-            "up": [
-                false,
-                true
-            ],
-            "west": [
-                false,
-                true
-            ]
-        }
-    },
-    "sugar_cane": {
-        "cases": [
-            "sugar_cane"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ]
-        }
-    },
-    "fire": {
-        "cases": [
-            "fire"
-        ],
-        "tags": {
-            "age": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ],
-            "east": [
-                false,
-                true
-            ],
-            "north": [
-                false,
-                true
-            ],
-            "south": [
-                false,
-                true
-            ],
-            "up": [
-                false,
-                true
-            ],
-            "west": [
-                false,
-                true
-            ]
-        }
+  },
+  "barrel": {
+    "cases": [
+      "barrel"
+    ],
+    "tags": {
+      "facing": [
+        "down",
+        "east",
+        "north",
+        "south",
+        "up",
+        "west"
+      ],
+      "open": [
+        false,
+        true
+      ]
     }
+  },
+  "bed": {
+    "cases": [
+      "black_bed",
+      "blue_bed",
+      "brown_bed",
+      "cyan_bed",
+      "gray_bed",
+      "green_bed",
+      "light_blue_bed",
+      "light_gray_bed",
+      "lime_bed",
+      "magenta_bed",
+      "orange_bed",
+      "pink_bed",
+      "purple_bed",
+      "red_bed",
+      "white_bed",
+      "yellow_bed"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "occupied": [
+        false,
+        true
+      ],
+      "part": [
+        "foot",
+        "head"
+      ]
+    }
+  },
+  "bee": {
+    "cases": [
+      "bee_nest",
+      "beehive"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "honey_level": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "bell": {
+    "cases": [
+      "bell"
+    ],
+    "tags": {
+      "attachment": [
+        "ceiling",
+        "double_wall",
+        "floor",
+        "single_wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  },
+  "big_dripleaf": {
+    "cases": [
+      "big_dripleaf"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "tilt": [
+        "full",
+        "none",
+        "partial",
+        "unstable"
+      ]
+    }
+  },
+  "brewing_stand": {
+    "cases": [
+      "brewing_stand"
+    ],
+    "tags": {
+      "has_bottle_0": [
+        false,
+        true
+      ],
+      "has_bottle_1": [
+        false,
+        true
+      ],
+      "has_bottle_2": [
+        false,
+        true
+      ]
+    }
+  },
+  "button": {
+    "cases": [
+      "acacia_button",
+      "bamboo_button",
+      "birch_button",
+      "cherry_button",
+      "crimson_button",
+      "dark_oak_button",
+      "jungle_button",
+      "lever",
+      "mangrove_button",
+      "oak_button",
+      "polished_blackstone_button",
+      "spruce_button",
+      "stone_button",
+      "warped_button"
+    ],
+    "tags": {
+      "face": [
+        "ceiling",
+        "floor",
+        "wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "powered": [
+        false,
+        true
+      ]
+    }
+  },
+  "cake": {
+    "cases": [
+      "cake"
+    ],
+    "tags": {
+      "bites": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "calibrated_sculk_sensor": {
+    "cases": [
+      "calibrated_sculk_sensor"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "sculk_sensor_phase": [
+        "active",
+        "cooldown",
+        "inactive"
+      ]
+    }
+  },
+  "candle": {
+    "cases": [
+      "black_candle",
+      "blue_candle",
+      "brown_candle",
+      "candle",
+      "cyan_candle",
+      "gray_candle",
+      "green_candle",
+      "light_blue_candle",
+      "light_gray_candle",
+      "lime_candle",
+      "magenta_candle",
+      "orange_candle",
+      "pink_candle",
+      "purple_candle",
+      "red_candle",
+      "white_candle",
+      "yellow_candle"
+    ],
+    "tags": {
+      "candles": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "lit": [
+        false,
+        true
+      ]
+    }
+  },
+  "candle_cake": {
+    "cases": [
+      "black_candle_cake",
+      "blue_candle_cake",
+      "brown_candle_cake",
+      "candle_cake",
+      "cyan_candle_cake",
+      "gray_candle_cake",
+      "green_candle_cake",
+      "light_blue_candle_cake",
+      "light_gray_candle_cake",
+      "lime_candle_cake",
+      "magenta_candle_cake",
+      "orange_candle_cake",
+      "pink_candle_cake",
+      "purple_candle_cake",
+      "red_candle_cake",
+      "redstone_lamp",
+      "redstone_torch",
+      "white_candle_cake",
+      "yellow_candle_cake"
+    ],
+    "tags": {
+      "lit": [
+        false,
+        true
+      ]
+    }
+  },
+  "cardinal": {
+    "cases": [
+      "anvil",
+      "attached_melon_stem",
+      "attached_pumpkin_stem",
+      "big_dripleaf_stem",
+      "black_glazed_terracotta",
+      "black_wall_banner",
+      "blue_glazed_terracotta",
+      "blue_wall_banner",
+      "brown_glazed_terracotta",
+      "brown_wall_banner",
+      "carved_pumpkin",
+      "chipped_anvil",
+      "creeper_head",
+      "creeper_wall_head",
+      "cyan_glazed_terracotta",
+      "cyan_wall_banner",
+      "damaged_anvil",
+      "dragon_head",
+      "dragon_wall_head",
+      "gray_glazed_terracotta",
+      "gray_wall_banner",
+      "green_glazed_terracotta",
+      "green_wall_banner",
+      "jack_o_lantern",
+      "ladder",
+      "lectern",
+      "light_blue_glazed_terracotta",
+      "light_gray_glazed_terracotta",
+      "lime_glazed_terracotta",
+      "loom",
+      "magenta_glazed_terracotta",
+      "magenta_wall_banner",
+      "orange_glazed_terracotta",
+      "orange_wall_banner",
+      "piglin_head",
+      "piglin_wall_head",
+      "pink_glazed_terracotta",
+      "pink_wall_banner",
+      "player_head",
+      "player_wall_head",
+      "purple_glazed_terracotta",
+      "purple_wall_banner",
+      "red_glazed_terracotta",
+      "red_wall_banner",
+      "skeleton_skull",
+      "skeleton_wall_skull",
+      "soul_wall_torch",
+      "stonecutter",
+      "wither_skeleton_skull",
+      "wither_skeleton_wall_skull",
+      "yellow_glazed_terracotta",
+      "yellow_wall_banner",
+      "zombie_head",
+      "zombie_wall_head"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  },
+  "cauldron": {
+    "cases": [
+      "powder_snow_cauldron",
+      "water_cauldron"
+    ],
+    "tags": {
+      "level": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "cave_vines": {
+    "cases": [
+      "cave_vines"
+    ],
+    "tags": {
+      "berries": [
+        false,
+        true
+      ],
+      "age": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    }
+  },
+  "cave_vines_plant": {
+    "cases": [
+      "cave_vines_plant"
+    ],
+    "tags": {
+      "berries": [
+        false,
+        true
+      ]
+    }
+  },
+  "chests": {
+    "cases": [
+      "chest",
+      "trapped_chest"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "type": [
+        "left",
+        "normal",
+        "right"
+      ],
+      "waterlogged": [
+        false,
+        true
+      ]
+    }
+  },
+  "chiseled_bookshelf": {
+    "cases": [
+      "chiseled_bookshelf"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "slot_0_occupied": [
+        false,
+        true
+      ],
+      "slot_1_occupied": [
+        false,
+        true
+      ],
+      "slot_2_occupied": [
+        false,
+        true
+      ],
+      "slot_3_occupied": [
+        false,
+        true
+      ],
+      "slot_4_occupied": [
+        false,
+        true
+      ],
+      "slot_5_occupied": [
+        false,
+        true
+      ]
+    }
+  },
+  "chorus_flower": {
+    "cases": [
+      "chorus_flower"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "cocoa": {
+    "cases": [
+      "cocoa"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1,
+        2
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  },
+  "command_block": {
+    "cases": [
+      "chain_command_block",
+      "command_block",
+      "repeating_command_block"
+    ],
+    "tags": {
+      "conditional": [
+        false,
+        true
+      ],
+      "facing": [
+        "down",
+        "east",
+        "north",
+        "south",
+        "up",
+        "west"
+      ]
+    }
+  },
+  "comparator": {
+    "cases": [
+      "comparator"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "mode": [
+        "compare",
+        "subtract"
+      ],
+      "powered": [
+        false,
+        true
+      ]
+    }
+  },
+  "composter": {
+    "cases": [
+      "composter"
+    ],
+    "tags": {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  "coral": {
+    "cases": [
+      "brain_coral",
+      "brain_coral_fan",
+      "bubble_coral",
+      "bubble_coral_fan",
+      "conduit",
+      "dead_brain_coral",
+      "dead_brain_coral_fan",
+      "dead_bubble_coral",
+      "dead_bubble_coral_fan",
+      "dead_fire_coral",
+      "dead_fire_coral_fan",
+      "dead_horn_coral",
+      "dead_horn_coral_fan",
+      "dead_tube_coral",
+      "dead_tube_coral_fan",
+      "fire_coral",
+      "fire_coral_fan",
+      "horn_coral",
+      "horn_coral_fan",
+      "tube_coral",
+      "tube_coral_fan"
+    ],
+    "tags": {
+      "waterlogged": [
+        false,
+        true
+      ]
+    }
+  },
+  "crop": {
+    "cases": [
+      "carrots",
+      "melon_stem",
+      "potatoes",
+      "pumpkin_stem",
+      "wheat"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "daylight_detector": {
+    "cases": [
+      "daylight_detector"
+    ],
+    "tags": {
+      "inverted": [
+        false,
+        true
+      ]
+    }
+  },
+  "door": {
+    "cases": [
+      "acacia_door",
+      "bamboo_door",
+      "birch_door",
+      "cherry_door",
+      "crimson_door",
+      "dark_oak_door",
+      "iron_door",
+      "jungle_door",
+      "mangrove_door",
+      "oak_door",
+      "spruce_door",
+      "warped_door"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        false,
+        true
+      ]
+    }
+  },
+  "empty": {
+    "cases": [
+      "acacia_planks",
+      "air",
+      "allium",
+      "amethyst_block",
+      "ancient_debris",
+      "andesite",
+      "azalea",
+      "azure_bluet",
+      "bamboo_mosaic",
+      "bamboo_planks",
+      "barrier",
+      "beacon",
+      "bedrock",
+      "birch_planks",
+      "black_carpet",
+      "black_concrete",
+      "black_concrete_powder",
+      "black_stained_glass",
+      "black_terracotta",
+      "black_wool",
+      "blackstone",
+      "blue_carpet",
+      "blue_concrete",
+      "blue_concrete_powder",
+      "blue_ice",
+      "blue_orchid",
+      "blue_stained_glass",
+      "blue_terracotta",
+      "blue_wool",
+      "bookshelf",
+      "brain_coral_block",
+      "bricks",
+      "brown_carpet",
+      "brown_concrete",
+      "brown_concrete_powder",
+      "brown_mushroom",
+      "brown_stained_glass",
+      "brown_terracotta",
+      "brown_wool",
+      "bubble_column",
+      "bubble_coral_block",
+      "budding_amethyst",
+      "cactus",
+      "calcite",
+      "cartography_table",
+      "cauldron",
+      "cave_air",
+      "cherry_planks",
+      "chiseled_deepslate",
+      "chiseled_nether_bricks",
+      "chiseled_polished_blackstone",
+      "chiseled_quartz_block",
+      "chiseled_red_sandstone",
+      "chiseled_sandstone",
+      "chiseled_stone_bricks",
+      "clay",
+      "coal_block",
+      "coal_ore",
+      "coarse_dirt",
+      "cobbled_deepslate",
+      "cobblestone",
+      "cobweb",
+      "copper_block",
+      "copper_ore",
+      "cornflower",
+      "cracked_deepslate_bricks",
+      "cracked_deepslate_tiles",
+      "cracked_nether_bricks",
+      "cracked_polished_blackstone_bricks",
+      "cracked_stone_bricks",
+      "crafting_table",
+      "crimson_fungus",
+      "crimson_nylium",
+      "crimson_planks",
+      "crimson_roots",
+      "crying_obsidian",
+      "cut_copper",
+      "cut_red_sandstone",
+      "cut_sandstone",
+      "cyan_carpet",
+      "cyan_concrete",
+      "cyan_concrete_powder",
+      "cyan_stained_glass",
+      "cyan_terracotta",
+      "cyan_wool",
+      "dandelion",
+      "dark_oak_planks",
+      "dark_prismarine",
+      "dead_brain_coral_block",
+      "dead_bubble_coral_block",
+      "dead_bush",
+      "dead_fire_coral_block",
+      "dead_horn_coral_block",
+      "dead_tube_coral_block",
+      "decorated_pot",
+      "deepslate_bricks",
+      "deepslate_coal_ore",
+      "deepslate_copper_ore",
+      "deepslate_diamond_ore",
+      "deepslate_emerald_ore",
+      "deepslate_gold_ore",
+      "deepslate_iron_ore",
+      "deepslate_lapis_ore",
+      "deepslate_redstone_ore",
+      "deepslate_tiles",
+      "diamond_block",
+      "diamond_ore",
+      "diorite",
+      "dirt",
+      "dirt_path",
+      "dragon_egg",
+      "dried_kelp_block",
+      "dripstone_block",
+      "emerald_block",
+      "emerald_ore",
+      "enchanting_table",
+      "end_gateway",
+      "end_portal",
+      "end_stone",
+      "end_stone_bricks",
+      "exposed_copper",
+      "exposed_cut_copper",
+      "fern",
+      "fire_coral_block",
+      "fletching_table",
+      "flower_pot",
+      "flowering_azalea",
+      "frogspawn",
+      "gilded_blackstone",
+      "glass",
+      "glowstone",
+      "gold_block",
+      "gold_ore",
+      "granite",
+      "grass",
+      "gravel",
+      "gray_carpet",
+      "gray_concrete",
+      "gray_concrete_powder",
+      "gray_stained_glass",
+      "gray_terracotta",
+      "gray_wool",
+      "green_carpet",
+      "green_concrete",
+      "green_concrete_powder",
+      "green_stained_glass",
+      "green_terracotta",
+      "green_wool",
+      "hanging_roots",
+      "honey_block",
+      "honeycomb_block",
+      "horn_coral_block",
+      "ice",
+      "infested_chiseled_stone_bricks",
+      "infested_cobblestone",
+      "infested_cracked_stone_bricks",
+      "infested_mossy_stone_bricks",
+      "infested_stone",
+      "infested_stone_bricks",
+      "iron_block",
+      "iron_ore",
+      "jungle_planks",
+      "kelp_plant",
+      "lapis_block",
+      "lapis_ore",
+      "lava_cauldron",
+      "light_blue_carpet",
+      "light_blue_concrete",
+      "light_blue_concrete_powder",
+      "light_blue_stained_glass",
+      "light_blue_terracotta",
+      "light_blue_wool",
+      "light_gray_carpet",
+      "light_gray_concrete",
+      "light_gray_concrete_powder",
+      "light_gray_stained_glass",
+      "light_gray_terracotta",
+      "light_gray_wool",
+      "lily_of_the_valley",
+      "lily_pad",
+      "lime_carpet",
+      "lime_concrete",
+      "lime_concrete_powder",
+      "lime_stained_glass",
+      "lime_terracotta",
+      "lime_wool",
+      "lodestone",
+      "magenta_carpet",
+      "magenta_concrete",
+      "magenta_concrete_powder",
+      "magenta_stained_glass",
+      "magenta_terracotta",
+      "magenta_wool",
+      "magma_block",
+      "mangrove_planks",
+      "mangrove_roots",
+      "melon",
+      "moss_block",
+      "moss_carpet",
+      "mossy_cobblestone",
+      "mossy_stone_bricks",
+      "mud",
+      "mud_bricks",
+      "nether_bricks",
+      "nether_gold_ore",
+      "nether_quartz_ore",
+      "nether_sprouts",
+      "nether_wart_block",
+      "netherite_block",
+      "netherrack",
+      "oak_planks",
+      "obsidian",
+      "orange_carpet",
+      "orange_concrete",
+      "orange_concrete_powder",
+      "orange_stained_glass",
+      "orange_terracotta",
+      "orange_tulip",
+      "orange_wool",
+      "oxeye_daisy",
+      "oxidized_copper",
+      "oxidized_cut_copper",
+      "packed_ice",
+      "packed_mud",
+      "pink_carpet",
+      "pink_concrete",
+      "pink_concrete_powder",
+      "pink_petals",
+      "pink_stained_glass",
+      "pink_terracotta",
+      "pink_tulip",
+      "pink_wool",
+      "polished_andesite",
+      "polished_blackstone",
+      "polished_blackstone_bricks",
+      "polished_deepslate",
+      "polished_diorite",
+      "polished_granite",
+      "poppy",
+      "potted_acacia_sapling",
+      "potted_allium",
+      "potted_azalea_bush",
+      "potted_azure_bluet",
+      "potted_bamboo",
+      "potted_birch_sapling",
+      "potted_blue_orchid",
+      "potted_brown_mushroom",
+      "potted_cactus",
+      "potted_cherry_sapling",
+      "potted_cornflower",
+      "potted_crimson_fungus",
+      "potted_crimson_roots",
+      "potted_dandelion",
+      "potted_dark_oak_sapling",
+      "potted_dead_bush",
+      "potted_fern",
+      "potted_flowering_azalea_bush",
+      "potted_jungle_sapling",
+      "potted_lily_of_the_valley",
+      "potted_mangrove_propagule",
+      "potted_oak_sapling",
+      "potted_orange_tulip",
+      "potted_oxeye_daisy",
+      "potted_pink_tulip",
+      "potted_poppy",
+      "potted_red_mushroom",
+      "potted_red_tulip",
+      "potted_spruce_sapling",
+      "potted_torchflower",
+      "potted_warped_fungus",
+      "potted_warped_roots",
+      "potted_white_tulip",
+      "potted_wither_rose",
+      "powder_snow",
+      "prismarine",
+      "prismarine_bricks",
+      "pumpkin",
+      "purple_carpet",
+      "purple_concrete",
+      "purple_concrete_powder",
+      "purple_stained_glass",
+      "purple_terracotta",
+      "purple_wool",
+      "purpur_block",
+      "quartz_block",
+      "quartz_bricks",
+      "raw_copper_block",
+      "raw_gold_block",
+      "raw_iron_block",
+      "red_carpet",
+      "red_concrete",
+      "red_concrete_powder",
+      "red_mushroom",
+      "red_nether_bricks",
+      "red_sand",
+      "red_sandstone",
+      "red_stained_glass",
+      "red_terracotta",
+      "red_tulip",
+      "red_wool",
+      "redstone_block",
+      "reinforced_deepslate",
+      "rooted_dirt",
+      "sand",
+      "sandstone",
+      "sculk",
+      "sea_lantern",
+      "seagrass",
+      "shroomlight",
+      "slime_block",
+      "smithing_table",
+      "smooth_basalt",
+      "smooth_quartz",
+      "smooth_red_sandstone",
+      "smooth_sandstone",
+      "smooth_stone",
+      "snow_block",
+      "soul_fire",
+      "soul_sand",
+      "soul_soil",
+      "soul_torch",
+      "spawner",
+      "sponge",
+      "spore_blossom",
+      "spruce_planks",
+      "stone",
+      "stone_bricks",
+      "structure_void",
+      "terracotta",
+      "tinted_glass",
+      "torch",
+      "torchflower",
+      "tube_coral_block",
+      "tuff",
+      "twisting_vines_plant",
+      "void_air",
+      "warped_fungus",
+      "warped_nylium",
+      "warped_planks",
+      "warped_roots",
+      "warped_wart_block",
+      "waxed_copper_block",
+      "waxed_cut_copper",
+      "waxed_exposed_copper",
+      "waxed_exposed_cut_copper",
+      "waxed_oxidized_copper",
+      "waxed_oxidized_cut_copper",
+      "waxed_weathered_copper",
+      "waxed_weathered_cut_copper",
+      "weathered_copper",
+      "weathered_cut_copper",
+      "weeping_vines_plant",
+      "wet_sponge",
+      "white_carpet",
+      "white_concrete",
+      "white_concrete_powder",
+      "white_stained_glass",
+      "white_terracotta",
+      "white_tulip",
+      "white_wool",
+      "wither_rose",
+      "yellow_carpet",
+      "yellow_concrete",
+      "yellow_concrete_powder",
+      "yellow_stained_glass",
+      "yellow_terracotta",
+      "yellow_wool"
+    ],
+    "tags": {}
+  },
+  "end_portal_frame": {
+    "cases": [
+      "end_portal_frame"
+    ],
+    "tags": {
+      "eye": [
+        false,
+        true
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  },
+  "facer": {
+    "cases": [
+      "amethyst_cluster",
+      "black_shulker_box",
+      "blue_shulker_box",
+      "brown_shulker_box",
+      "cyan_shulker_box",
+      "dispenser",
+      "dropper",
+      "end_rod",
+      "gray_shulker_box",
+      "green_shulker_box",
+      "large_amethyst_bud",
+      "light_blue_shulker_box",
+      "light_gray_shulker_box",
+      "lime_shulker_box",
+      "magenta_shulker_box",
+      "medium_amethyst_bud",
+      "orange_shulker_box",
+      "pink_shulker_box",
+      "purple_shulker_box",
+      "red_shulker_box",
+      "shulker_box",
+      "small_amethyst_bud",
+      "white_shulker_box",
+      "yellow_shulker_box"
+    ],
+    "tags": {
+      "facing": [
+        "down",
+        "east",
+        "north",
+        "south",
+        "up",
+        "west"
+      ]
+    }
+  },
+  "facer_power": {
+    "cases": [
+      "lightning_rod",
+      "observer"
+    ],
+    "tags": {
+      "facing": [
+        "down",
+        "east",
+        "north",
+        "south",
+        "up",
+        "west"
+      ],
+      "powered": [
+        false,
+        true
+      ]
+    }
+  },
+  "farmland": {
+    "cases": [
+      "farmland"
+    ],
+    "tags": {
+      "moisture": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "fence_pane": {
+    "cases": [
+      "acacia_fence",
+      "bamboo_fence",
+      "birch_fence",
+      "black_glass_pane",
+      "blue_glass_pane",
+      "brown_fence",
+      "brown_glass_pane",
+      "cherry_fence",
+      "crimson_fence",
+      "cyan_glass_pane",
+      "dark_oak_fence",
+      "glass_pane",
+      "gray_glass_pane",
+      "green_glass_pane",
+      "iron_bars",
+      "jungle_fence",
+      "light_blue_glass_pane",
+      "light_gray_glass_pane",
+      "lime_glass_pane",
+      "magenta_glass_pane",
+      "mangrove_fence",
+      "oak_fence",
+      "orange_glass_pane",
+      "pink_glass_pane",
+      "purple_glass_pane",
+      "red_glass_pane",
+      "spruce_fence",
+      "warped_fence",
+      "white_glass_pane",
+      "yellow_glass_pane"
+    ],
+    "tags": {
+      "east": [
+        false,
+        true
+      ],
+      "north": [
+        false,
+        true
+      ],
+      "south": [
+        false,
+        true
+      ],
+      "waterlogged": [
+        false,
+        true
+      ],
+      "west": [
+        false,
+        true
+      ]
+    }
+  },
+  "fire": {
+    "cases": [
+      "fire"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "east": [
+        false,
+        true
+      ],
+      "north": [
+        false,
+        true
+      ],
+      "south": [
+        false,
+        true
+      ],
+      "up": [
+        false,
+        true
+      ],
+      "west": [
+        false,
+        true
+      ]
+    }
+  },
+  "gate": {
+    "cases": [
+      "acacia_fence_gate",
+      "bamboo_fence_gate",
+      "birch_fence_gate",
+      "cherry_fence_gate",
+      "crimson_fence_gate",
+      "dark_oak_fence_gate",
+      "jungle_fence_gate",
+      "mangrove_fence_gate",
+      "oak_fence_gate",
+      "spruce_fence_gate",
+      "warped_fence_gate"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "in_wall": [
+        false,
+        true
+      ],
+      "open": [
+        false,
+        true
+      ]
+    }
+  },
+  "glow_lichen": {
+    "cases": [
+      "glow_lichen",
+      "sculk_vein"
+    ],
+    "tags": {
+      "down": [
+        false,
+        true
+      ],
+      "east": [
+        false,
+        true
+      ],
+      "north": [
+        false,
+        true
+      ],
+      "south": [
+        false,
+        true
+      ],
+      "up": [
+        false,
+        true
+      ],
+      "waterlogged": [
+        false,
+        true
+      ],
+      "west": [
+        false,
+        true
+      ]
+    }
+  },
+  "grindstone": {
+    "cases": [
+      "grindstone"
+    ],
+    "tags": {
+      "face": [
+        "ceiling",
+        "floor",
+        "wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  },
+  "hanging_sign": {
+    "cases": [
+      "acacia_hanging_sign",
+      "bamboo_hanging_sign",
+      "birch_hanging_sign",
+      "cherry_hanging_sign",
+      "crimson_hanging_sign",
+      "dark_oak_hanging_sign",
+      "jungle_hanging_sign",
+      "mangrove_hanging_sign",
+      "oak_hanging_sign",
+      "spruce_hanging_sign",
+      "warped_hanging_sign"
+    ],
+    "tags": {
+      "attached": [
+        false,
+        true
+      ],
+      "rotation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "waterlogged": [
+        false,
+        true
+      ]
+    }
+  },
+  "head_banner": {
+    "cases": [
+      "black_banner",
+      "blue_banner",
+      "brown_banner",
+      "creeper_head",
+      "cyan_banner",
+      "dragon_head",
+      "gray_banner",
+      "green_banner",
+      "light_blue_banner",
+      "light_gray_banner",
+      "lime_banner",
+      "magenta_banner",
+      "orange_banner",
+      "piglin_head",
+      "pink_banner",
+      "player_head",
+      "purple_banner",
+      "red_banner",
+      "skeleton_skull",
+      "white_banner",
+      "wither_skeleton_skull",
+      "yellow_banner",
+      "zombie_head"
+    ],
+    "tags": {
+      "rotation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "hopper": {
+    "cases": [
+      "hopper"
+    ],
+    "tags": {
+      "facing": [
+        "down",
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  },
+  "item_frame": {
+    "cases": [
+      "glow_item_frame",
+      "item_frame"
+    ],
+    "tags": {
+      "map": [
+        false,
+        true
+      ]
+    }
+  },
+  "jigsaw": {
+    "cases": [
+      "jigsaw"
+    ],
+    "tags": {
+      "orientation": [
+        "down_east",
+        "down_north",
+        "down_south",
+        "down_west",
+        "east_up",
+        "north_up",
+        "south_up",
+        "up_east",
+        "up_north",
+        "up_south",
+        "up_west",
+        "west_up"
+      ]
+    }
+  },
+  "jukebox": {
+    "cases": [
+      "jukebox"
+    ],
+    "tags": {
+      "has_record": [
+        false,
+        true
+      ]
+    }
+  },
+  "lantern": {
+    "cases": [
+      "lantern",
+      "soul_lantern"
+    ],
+    "tags": {
+      "hanging": [
+        false,
+        true
+      ]
+    }
+  },
+  "leaves": {
+    "cases": [
+      "acacia_leaves",
+      "azalea_leaves",
+      "birch_leaves",
+      "cherry_leaves",
+      "dark_oak_leaves",
+      "jungle_leaves",
+      "mangrove_leaves",
+      "oak_leaves",
+      "spruce_leaves"
+    ],
+    "tags": {
+      "distance": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "persistent": [
+        false,
+        true
+      ],
+      "waterlogged": [
+        false,
+        true
+      ]
+    }
+  },
+  "liquid": {
+    "cases": [
+      "lava",
+      "light",
+      "water"
+    ],
+    "tags": {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "lit": {
+    "cases": [
+      "blast_furnace",
+      "campfire",
+      "furnace",
+      "redstone_wall_torch",
+      "smoker",
+      "soul_campfire"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "lit": [
+        false,
+        true
+      ]
+    }
+  },
+  "mangrove_propagule": {
+    "cases": [
+      "mangrove_propagule"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "hanging": [
+        false,
+        true
+      ],
+      "stage": [
+        0,
+        1
+      ],
+      "waterlogged": [
+        false,
+        true
+      ]
+    }
+  },
+  "moving_piston": {
+    "cases": [
+      "moving_piston"
+    ],
+    "tags": {
+      "facing": [
+        "down",
+        "east",
+        "north",
+        "south",
+        "up",
+        "west"
+      ],
+      "type": [
+        "normal",
+        "sticky"
+      ]
+    }
+  },
+  "mushroom_block": {
+    "cases": [
+      "brown_mushroom_block",
+      "chorus_plant",
+      "mushroom_stem",
+      "red_mushroom_block"
+    ],
+    "tags": {
+      "down": [
+        false,
+        true
+      ],
+      "east": [
+        false,
+        true
+      ],
+      "north": [
+        false,
+        true
+      ],
+      "south": [
+        false,
+        true
+      ],
+      "up": [
+        false,
+        true
+      ],
+      "west": [
+        false,
+        true
+      ]
+    }
+  },
+  "nature_top": {
+    "cases": [
+      "grass_block",
+      "mycelium",
+      "podzol"
+    ],
+    "tags": {
+      "snowy": [
+        false,
+        true
+      ]
+    }
+  },
+  "nether_portal": {
+    "cases": [
+      "nether_portal"
+    ],
+    "tags": {
+      "axis": [
+        "x",
+        "z"
+      ]
+    }
+  },
+  "nether_vines": {
+    "cases": [
+      "kelp",
+      "twisting_vines",
+      "weeping_vines"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    }
+  },
+  "noteblock": {
+    "cases": [
+      "noteblock"
+    ],
+    "tags": {
+      "instrument": [
+        "banjo",
+        "basedrum",
+        "bass",
+        "bell",
+        "bit",
+        "chime",
+        "cow_bell",
+        "creeper",
+        "custom_head",
+        "didgeridoo",
+        "dragon",
+        "flute",
+        "guitar",
+        "harp",
+        "hat",
+        "iron_xylophone",
+        "piglin",
+        "pling",
+        "skeleton",
+        "snare",
+        "wither_skeleton",
+        "xylophone",
+        "zombie"
+      ],
+      "note": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "powered": [
+        false,
+        true
+      ]
+    }
+  },
+  "piston": {
+    "cases": [
+      "piston",
+      "sticky_piston"
+    ],
+    "tags": {
+      "extended": [
+        false,
+        true
+      ],
+      "facing": [
+        "down",
+        "east",
+        "north",
+        "south",
+        "up",
+        "west"
+      ]
+    }
+  },
+  "piston_head": {
+    "cases": [
+      "piston_head"
+    ],
+    "tags": {
+      "facing": [
+        "down",
+        "east",
+        "north",
+        "south",
+        "up",
+        "west"
+      ],
+      "short": [
+        false,
+        true
+      ],
+      "type": [
+        "normal",
+        "sticky"
+      ]
+    }
+  },
+  "pitcher_crop": {
+    "cases": [
+      "pitcher_crop"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    }
+  },
+  "plant": {
+    "cases": [
+      "large_fern",
+      "lilac",
+      "peony",
+      "pitcher_plant",
+      "rose_bush",
+      "sunflower",
+      "tall_grass",
+      "tall_seagrass"
+    ],
+    "tags": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    }
+  },
+  "pointed_dripstone": {
+    "cases": [
+      "pointed_dripstone"
+    ],
+    "tags": {
+      "thickness": [
+        "base",
+        "frustum",
+        "middle",
+        "tip",
+        "tip_merge"
+      ],
+      "vertical_direction": [
+        "down",
+        "up"
+      ]
+    }
+  },
+  "power_rail": {
+    "cases": [
+      "activator_rail",
+      "detector_rail",
+      "powered_rail"
+    ],
+    "tags": {
+      "powered": [
+        false,
+        true
+      ],
+      "shape": [
+        "ascending_east",
+        "ascending_north",
+        "ascending_south",
+        "ascending_west",
+        "east_west",
+        "north_south"
+      ]
+    }
+  },
+  "pressure_plate": {
+    "cases": [
+      "acacia_pressure_plate",
+      "bamboo_pressure_plate",
+      "birch_pressure_plate",
+      "cherry_pressure_plate",
+      "crimson_pressure_plate",
+      "dark_oak_pressure_plate",
+      "jungle_pressure_plate",
+      "mangrove_pressure_plate",
+      "oak_pressure_plate",
+      "polished_blackstone_pressure_plate",
+      "spruce_pressure_plate",
+      "stone_pressure_plate",
+      "warped_pressure_plate"
+    ],
+    "tags": {
+      "powered": [
+        false,
+        true
+      ]
+    }
+  },
+  "rail": {
+    "cases": [
+      "rail"
+    ],
+    "tags": {
+      "shape": [
+        "ascending_east",
+        "ascending_north",
+        "ascending_south",
+        "ascending_west",
+        "east_west",
+        "north_east",
+        "north_south",
+        "north_west",
+        "south_east",
+        "south_west"
+      ]
+    }
+  },
+  "redstone_input": {
+    "cases": [
+      "heavy_weighted_pressure_plate",
+      "light_weighted_pressure_plate",
+      "target"
+    ],
+    "tags": {
+      "power": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "redstone_ore": {
+    "cases": [
+      "redstone_ore"
+    ],
+    "tags": {
+      "lit": [
+        false,
+        true
+      ]
+    }
+  },
+  "redstone_wire": {
+    "cases": [
+      "redstone_wire"
+    ],
+    "tags": {
+      "power": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "east": [
+        false,
+        true
+      ],
+      "north": [
+        false,
+        true
+      ],
+      "south": [
+        false,
+        true
+      ],
+      "west": [
+        false,
+        true
+      ]
+    }
+  },
+  "repeater": {
+    "cases": [
+      "repeater"
+    ],
+    "tags": {
+      "delay": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "locked": [
+        false,
+        true
+      ],
+      "powered": [
+        false,
+        true
+      ]
+    }
+  },
+  "respawn_anchor": {
+    "cases": [
+      "respawn_anchor"
+    ],
+    "tags": {
+      "charges": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "saplings": {
+    "cases": [
+      "acacia_sapling",
+      "birch_sapling",
+      "cherry_sapling",
+      "dark_oak_sapling",
+      "jungle_sapling",
+      "oak_sapling",
+      "spruce_sapling",
+      "torchflower_crop"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1
+      ]
+    }
+  },
+  "scaffolding": {
+    "cases": [
+      "scaffolding"
+    ],
+    "tags": {
+      "bottom": [
+        false,
+        true
+      ]
+    }
+  },
+  "sculk_catalyst": {
+    "cases": [
+      "sculk_catalyst"
+    ],
+    "tags": {
+      "bloom": [
+        false,
+        true
+      ]
+    }
+  },
+  "sculk_sensor": {
+    "cases": [
+      "sculk_sensor"
+    ],
+    "tags": {
+      "sculk_sensor_phase": [
+        "active",
+        "cooldown",
+        "inactive"
+      ]
+    }
+  },
+  "sculk_shrieker": {
+    "cases": [
+      "sculk_shrieker"
+    ],
+    "tags": {
+      "can_summon": [
+        false,
+        true
+      ]
+    }
+  },
+  "sea_pickle": {
+    "cases": [
+      "sea_pickle"
+    ],
+    "tags": {
+      "pickles": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "waterlogged": [
+        false,
+        true
+      ]
+    }
+  },
+  "sign": {
+    "cases": [
+      "acacia_sign",
+      "bamboo_sign",
+      "birch_sign",
+      "cherry_sign",
+      "crimson_sign",
+      "dark_oak_sign",
+      "jungle_sign",
+      "mangrove_sign",
+      "oak_sign",
+      "spruce_sign",
+      "warped_sign"
+    ],
+    "tags": {
+      "rotation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "waterlogged": [
+        false,
+        true
+      ]
+    }
+  },
+  "slab": {
+    "cases": [
+      "acacia_slab",
+      "andesite_slab",
+      "bamboo_mosaic_slab",
+      "bamboo_slab",
+      "birch_slab",
+      "blackstone_slab",
+      "brick_slab",
+      "cherry_slab",
+      "cobbled_deepslate_slab",
+      "cobblestone_slab",
+      "crimson_slab",
+      "cut_copper_slab",
+      "cut_red_sandstone_slab",
+      "cut_sandstone_slab",
+      "dark_oak_slab",
+      "dark_prismarine_slab",
+      "deepslate_brick_slab",
+      "deepslate_tile_slab",
+      "diorite_slab",
+      "end_stone_brick_slab",
+      "exposed_cut_copper_slab",
+      "granite_slab",
+      "jungle_slab",
+      "mangrove_slab",
+      "mossy_cobblestone_slab",
+      "mossy_stone_brick_slab",
+      "mud_brick_slab",
+      "nether_brick_slab",
+      "oak_slab",
+      "oxidized_cut_copper_slab",
+      "petrified_oak_slab",
+      "polished_andesite_slab",
+      "polished_blackstone_brick_slab",
+      "polished_blackstone_slab",
+      "polished_deepslate_slab",
+      "polished_diorite_slab",
+      "polished_granite_slab",
+      "prismarine_brick_slab",
+      "prismarine_slab",
+      "purpur_slab",
+      "quartz_slab",
+      "red_nether_brick_slab",
+      "red_sandstone_slab",
+      "sandstone_slab",
+      "smooth_quartz_slab",
+      "smooth_red_sandstone_slab",
+      "smooth_sandstone_slab",
+      "smooth_stone_slab",
+      "spruce_slab",
+      "stone_brick_slab",
+      "stone_slab",
+      "warped_slab",
+      "waxed_cut_copper_slab",
+      "waxed_exposed_cut_copper_slab",
+      "waxed_oxidized_cut_copper_slab",
+      "waxed_weathered_cut_copper_slab",
+      "weathered_cut_copper_slab"
+    ],
+    "tags": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    }
+  },
+  "small_dripleaf": {
+    "cases": [
+      "small_dripleaf"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    }
+  },
+  "sniffer_egg": {
+    "cases": [
+      "sniffer_egg"
+    ],
+    "tags": {
+      "hatch": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "snow": {
+    "cases": [
+      "snow"
+    ],
+    "tags": {
+      "layers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  "stairs": {
+    "cases": [
+      "acacia_stairs",
+      "andesite_stairs",
+      "bamboo_mosaic_stairs",
+      "bamboo_stairs",
+      "birch_stairs",
+      "blackstone_stairs",
+      "brick_stairs",
+      "cherry_stairs",
+      "cobbled_deepslate_stairs",
+      "cobblestone_stairs",
+      "crimson_stairs",
+      "cut_copper_stairs",
+      "dark_oak_stairs",
+      "dark_prismarine_stairs",
+      "deepslate_brick_stairs",
+      "deepslate_tile_stairs",
+      "diorite_stairs",
+      "end_stone_brick_stairs",
+      "exposed_cut_copper_stairs",
+      "granite_stairs",
+      "jungle_stairs",
+      "mangrove_stairs",
+      "mossy_cobblestone_stairs",
+      "mossy_stone_brick_stairs",
+      "mud_brick_stairs",
+      "nether_brick_stairs",
+      "oak_stairs",
+      "oxidized_cut_copper_stairs",
+      "polished_andesite_stairs",
+      "polished_blackstone_brick_stairs",
+      "polished_blackstone_stairs",
+      "polished_deepslate_stairs",
+      "polished_diorite_stairs",
+      "polished_granite_stairs",
+      "prismarine_brick_stairs",
+      "prismarine_stairs",
+      "purpur_stairs",
+      "quartz_stairs",
+      "red_nether_brick_stairs",
+      "red_sandstone_stairs",
+      "sandstone_stairs",
+      "smooth_quartz_stairs",
+      "smooth_red_sandstone_stairs",
+      "smooth_sandstone_stairs",
+      "spruce_stairs",
+      "stone_brick_stairs",
+      "stone_stairs",
+      "warped_stairs",
+      "waxed_cut_copper_stairs",
+      "waxed_exposed_cut_copper_stairs",
+      "waxed_oxidized_cut_copper_stairs",
+      "waxed_weathered_cut_copper_stairs",
+      "weathered_cut_copper_stairs"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    }
+  },
+  "structure_block": {
+    "cases": [
+      "structure_block"
+    ],
+    "tags": {
+      "mode": [
+        "corner",
+        "data",
+        "load",
+        "save"
+      ]
+    }
+  },
+  "sugar_cane": {
+    "cases": [
+      "sugar_cane"
+    ],
+    "tags": {
+      "age": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "suspicious": {
+    "cases": [
+      "suspicious_gravel",
+      "suspicious_sand"
+    ],
+    "tags": {
+      "dusted": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "tnt": {
+    "cases": [
+      "tnt"
+    ],
+    "tags": {
+      "unstable": [
+        false,
+        true
+      ]
+    }
+  },
+  "trapdoor": {
+    "cases": [
+      "acacia_trapdoor",
+      "bamboo_trapdoor",
+      "birch_trapdoor",
+      "cherry_trapdoor",
+      "crimson_trapdoor",
+      "dark_oak_trapdoor",
+      "iron_trapdoor",
+      "jungle_trapdoor",
+      "mangrove_trapdoor",
+      "oak_trapdoor",
+      "spruce_trapdoor",
+      "warped_trapdoor"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "open": [
+        false,
+        true
+      ]
+    }
+  },
+  "tripwire": {
+    "cases": [
+      "tripwire"
+    ],
+    "tags": {
+      "attached": [
+        false,
+        true
+      ],
+      "east": [
+        false,
+        true
+      ],
+      "north": [
+        false,
+        true
+      ],
+      "south": [
+        false,
+        true
+      ],
+      "west": [
+        false,
+        true
+      ]
+    }
+  },
+  "tripwire_hook": {
+    "cases": [
+      "tripwire_hook"
+    ],
+    "tags": {
+      "attached": [
+        false,
+        true
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "powered": [
+        false,
+        true
+      ]
+    }
+  },
+  "turtle_egg": {
+    "cases": [
+      "turtle_egg"
+    ],
+    "tags": {
+      "eggs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "hatch": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "vine": {
+    "cases": [
+      "vine"
+    ],
+    "tags": {
+      "east": [
+        false,
+        true
+      ],
+      "north": [
+        false,
+        true
+      ],
+      "south": [
+        false,
+        true
+      ],
+      "up": [
+        false,
+        true
+      ],
+      "west": [
+        false,
+        true
+      ]
+    }
+  },
+  "wall": {
+    "cases": [
+      "andesite_wall",
+      "blackstone_wall",
+      "brick_wall",
+      "cobbled_deepslate_wall",
+      "cobblestone_wall",
+      "deepslate_brick_wall",
+      "deepslate_tile_wall",
+      "diorite_wall",
+      "end_stone_brick_wall",
+      "granite_wall",
+      "mossy_cobblestone_wall",
+      "mossy_stone_brick_wall",
+      "mud_brick_wall",
+      "nether_brick_wall",
+      "polished_blackstone_brick_wall",
+      "polished_blackstone_wall",
+      "polished_deepslate_wall",
+      "prismarine_wall",
+      "red_nether_brick_wall",
+      "red_sandstone_wall",
+      "sandstone_wall",
+      "stone_brick_wall"
+    ],
+    "tags": {
+      "east": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "north": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "south": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "up": [
+        false,
+        true
+      ],
+      "waterlogged": [
+        false,
+        true
+      ],
+      "west": [
+        "low",
+        "none",
+        "tall"
+      ]
+    }
+  },
+  "wall_sign": {
+    "cases": [
+      "acacia_wall_hanging_sign",
+      "acacia_wall_sign",
+      "bamboo_wall_hanging_sign",
+      "bamboo_wall_sign",
+      "birch_wall_hanging_sign",
+      "birch_wall_sign",
+      "brain_coral_wall_fan",
+      "bubble_coral_wall_fan",
+      "cherry_wall_hanging_sign",
+      "cherry_wall_sign",
+      "crimson_wall_hanging_sign",
+      "crimson_wall_sign",
+      "dark_oak_wall_hanging_sign",
+      "dark_oak_wall_sign",
+      "dead_brain_coral_wall_fan",
+      "dead_bubble_coral_wall_fan",
+      "dead_fire_coral_wall_fan",
+      "dead_horn_coral_wall_fan",
+      "dead_tube_coral_wall_fan",
+      "ender_chest",
+      "fire_coral_wall_fan",
+      "horn_coral_wall_fan",
+      "jungle_wall_hanging_sign",
+      "jungle_wall_sign",
+      "mangrove_wall_hanging_sign",
+      "mangrove_wall_sign",
+      "oak_wall_hanging_sign",
+      "oak_wall_sign",
+      "spruce_wall_hanging_sign",
+      "spruce_wall_sign",
+      "tube_coral_wall_fan",
+      "warped_wall_hanging_sign",
+      "warped_wall_sign"
+    ],
+    "tags": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "waterlogged": [
+        false,
+        true
+      ]
+    }
+  }
 }
