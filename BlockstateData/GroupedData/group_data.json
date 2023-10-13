@@ -337,7 +337,7 @@
       ]
     }
   },
-  "candle_cake": {
+  "lit": {
     "cases": [
       "black_candle_cake",
       "blue_candle_cake",
@@ -357,7 +357,8 @@
       "redstone_lamp",
       "redstone_torch",
       "white_candle_cake",
-      "yellow_candle_cake"
+      "yellow_candle_cake",
+      "redstone_ore"
     ],
     "tags": {
       "lit": [
@@ -416,6 +417,7 @@
       "skeleton_wall_skull",
       "soul_wall_torch",
       "stonecutter",
+      "wall_torch",
       "wither_skeleton_skull",
       "wither_skeleton_wall_skull",
       "yellow_glazed_terracotta",
@@ -1616,7 +1618,7 @@
       ]
     }
   },
-  "lit": {
+  "lit_cardinal": {
     "cases": [
       "blast_furnace",
       "campfire",
@@ -2025,17 +2027,6 @@
         13,
         14,
         15
-      ]
-    }
-  },
-  "redstone_ore": {
-    "cases": [
-      "redstone_ore"
-    ],
-    "tags": {
-      "lit": [
-        false,
-        true
       ]
     }
   },
