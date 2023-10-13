@@ -1,6 +1,16 @@
+# IN THE MAKING, NOT DONE :O
+
+
+
+
 from typing import Any
 import pyperclip # pyperclip.copy(final_command)
 
+
+# block of comments here is old
+#  |
+#  |
+# \ /
 
 # User will start a session of creating commands. While they can just create singular ones directly, this doesnt work well for multi-line commands.
 # When commands are done, they will be saved to a text file. For now you just delete them manually, and starting a new command session will just add
