@@ -70,21 +70,21 @@ import pyperclip # pyperclip.copy(final_command)
 
 import json
 
-group_data_json = "group_data.json"
-block_data_json = "block_data.json"
+group_data_json = "BlockstateStuff/group_data.json"
+grouped_block_data_json = "BlockstateStuff/grouped_block_data.json"
 
-block_data, group_data = None, None
+grouped_block_data, group_data = None, None
 
 try:
     
-    with open(block_data_json, 'r') as json_file:
-            block_data = json.load(json_file)
+    with open(grouped_block_data_json, 'r') as json_file:
+            grouped_block_data = json.load(json_file)
 
 except FileNotFoundError:
-    print(f"BIG WARNING! Data file not found: {block_data_json}")
+    print(f"BIG WARNING! Data file not found: {grouped_block_data_json}")
 
 except json.JSONDecodeError:
-    print(f"BIG WARNING! Data in json file formatted wrong: {block_data_json}")
+    print(f"BIG WARNING! Data in json file formatted wrong: {grouped_block_data_json}")
 
 
 try:
@@ -134,9 +134,9 @@ else:
 
 class replaceCommand:
 
-    def __init__(self, auto_ratios=True, shared_tags=True) -> None:
+    def __init__(self, auto_ratio=True, shared_tags=True) -> None:
         
-        self.target = block(block_name=input("Block to replace: ").lower())
+        self.target = block(name=input("Block to replace: ").lower())
 
         self.shared_tags = shared_tags
 
@@ -145,8 +145,14 @@ class replaceCommand:
             self.shared_tags = {}
 
 
-
         self.replacers = []
+
+        while True:
+
+            self.replacers.append(replacer(input("Replacer block: "), auto_ratio=auto_ratio, shared_tags=shared_tags))
+
+            if not len(input("Add another replacer? ")):
+                break
 
     @classmethod
     def newSet(cls, auto_ratios=True, shared_tags=True):
@@ -163,22 +169,26 @@ class replaceCommand:
 
 class block:
 
-    def __init__(self, block_name, checkvalidity=True, shared_tags=False) -> None:
+    def __init__(self, name, checkvalidity=True, shared_tags=False) -> None:
         
-        self.block_name = block_name # Add check in json for the name if checkvalidity is True
+        self.name = name # Add check in json for the name if checkvalidity is True
 
         self.tag_info = {}
 
-        if (checkvalidity and self.block_name in block_data) or (not checkvalidity):
+        self.newDefiner = False
+
+        if (checkvalidity and self.name in grouped_block_data) or (not checkvalidity):
 
             
             # We have now verified the block to be a valid block. (or it isnt but checkvalidity was off)
 
             # The next step depends on if there is merging tag info, and if it group based or not.
-            # NOTE I gotta add a group attr to each block in block_data for this shit to work
+            # NOTE I gotta add a group attr to each block in grouped_block_data for this shit to work
             if shared_tags:
 
-                cur_block_group = block_data[self.block_name]["group"] # just saving group of this block since used so much
+                cur_block_group = grouped_block_data[self.name]["group"] # just saving group of this block since used so much
+
+                print(cur_block_group)
 
                 if cur_block_group in shared_tags:
                     for tag in shared_tags[cur_block_group]:
@@ -186,12 +196,27 @@ class block:
                         # but in this state you just add each tag to the current tag_info, since rn every single tag will be defined
                         # with this system if we entered this stage we dont need to ask user for anything
                         print(tag) # for now just printing to check ltr, but gotta add it to tag_info
+                        print(shared_tags[cur_block_group][tag])
+                        self.tag_info[tag] = shared_tags[cur_block_group][tag]
 
                 else: # The group's tags hasnt been defined, so now we ask user for each.
+
+                    self.newDefiner = True
+
+
+                    print(f"{self.name} is not in a defined tag group! Please define all the tags for this group :P")
+
+                    group_tags = group_data[cur_block_group]["tags"]
                     
-                    for base_tag in group_data[cur_block_group]["tags"]:
-                        print(base_tag) # Me not know how to handle json but we need the name of tag here, then we ask user what
+                    for base_tag in group_tags:
+
+                        self.tag_info[base_tag] = type(group_tags[base_tag][0])(input(f"Value for {base_tag} tag (Possible values: {group_tags[base_tag]}, type: {type(group_tags[base_tag][0])}): "))
+
+                        
+
+                        # print(base_tag) # Me not know how to handle json but we need the name of tag here, then we ask user what
                         # they want for it and then we save it. NOTE we also gotta figure out how to return the new data here.
+                    print(self.tag_info)
 
                 
 
@@ -205,7 +230,7 @@ class block:
 
         else:
 
-            raise ValueError("The block name '{self.block_name}' is not a legitimate block according to the block data fetched.")
+            raise ValueError("The block name '{self.name}' is not a legitimate block according to the block data fetched.")
         
     def parse(self):
         pass # Just parse block name and the tags. Ratio parsing is something that the replace class (ratio class?) adds on.
@@ -213,9 +238,9 @@ class block:
 
 class replacer(block):
 
-    def __init__(self, block_name, auto_ratio, shared_tags=False):
+    def __init__(self, name, checkvalidity=True, shared_tags=False, auto_ratio=True):
 
-        super().__init__(input("Name of replacer block: "), shared_tags=shared_tags)
+        super().__init__(name, checkvalidity=checkvalidity, shared_tags=shared_tags)
 
         if auto_ratio:
 
@@ -226,6 +251,9 @@ class replacer(block):
             self.ratio = float(input("Put the ratio of how much this block should replace as part of a whole: "))
 
 
+# Example of shared tag dict: 
+dic = { "axis": { "axis": "x"}}
+
 if __name__ == "__main__":
 
-    blok = block("stosne")
+    blok = block("campfire", shared_tags=dic)
