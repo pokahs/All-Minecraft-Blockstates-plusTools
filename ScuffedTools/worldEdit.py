@@ -151,6 +151,11 @@ class replaceCommand:
 
             self.replacers.append(replacer(input("Replacer block: "), auto_ratio=auto_ratio, shared_tags=shared_tags))
 
+            if self.replacers[-1].newDefiner:
+
+                self.shared_tags[self.replacers[-1].group] = self.replacers[-1].tag_info
+
+
             if not len(input("Add another replacer? ")):
                 break
 
@@ -177,6 +182,9 @@ class block:
 
         self.newDefiner = False
 
+        self.group = grouped_block_data[self.name]["group"]
+
+
         if (checkvalidity and self.name in grouped_block_data) or (not checkvalidity):
 
             
@@ -186,18 +194,14 @@ class block:
             # NOTE I gotta add a group attr to each block in grouped_block_data for this shit to work
             if shared_tags:
 
-                cur_block_group = grouped_block_data[self.name]["group"] # just saving group of this block since used so much
-
-                print(cur_block_group)
-
-                if cur_block_group in shared_tags:
-                    for tag in shared_tags[cur_block_group]:
+                if self.group in shared_tags:
+                    for tag in shared_tags[self.group]:
                         # Not sure exactl what "tag" will be, if its like half : top or just like half or whatever
                         # but in this state you just add each tag to the current tag_info, since rn every single tag will be defined
                         # with this system if we entered this stage we dont need to ask user for anything
                         print(tag) # for now just printing to check ltr, but gotta add it to tag_info
-                        print(shared_tags[cur_block_group][tag])
-                        self.tag_info[tag] = shared_tags[cur_block_group][tag]
+                        print(shared_tags[self.group][tag])
+                        self.tag_info[tag] = shared_tags[self.group][tag]
 
                 else: # The group's tags hasnt been defined, so now we ask user for each.
 
@@ -206,27 +210,40 @@ class block:
 
                     print(f"{self.name} is not in a defined tag group! Please define all the tags for this group :P")
 
-                    group_tags = group_data[cur_block_group]["tags"]
+                    group_tags = group_data[self.group]["tags"]
                     
                     for base_tag in group_tags:
 
-                        self.tag_info[base_tag] = type(group_tags[base_tag][0])(input(f"Value for {base_tag} tag (Possible values: {group_tags[base_tag]}, type: {type(group_tags[base_tag][0])}): "))
+                        # Here we get new tag value from user input, making sure it is either None/nothing (undefined/skipped), "all", or one of the approipiate tags.
 
-                        
+                        new_tag_value = None
 
-                        # print(base_tag) # Me not know how to handle json but we need the name of tag here, then we ask user what
-                        # they want for it and then we save it. NOTE we also gotta figure out how to return the new data here.
-                    print(self.tag_info)
+                        while True:
 
-                
+                            new_tag_value = input(f"Value for {base_tag} tag (Possible values: {group_tags[base_tag]}, type: {type(group_tags[base_tag][0])}): ").lower()
 
-            # If no merging tag info, we just go and start asking user for what each tag should be.
+                            if new_tag_value == '':
 
-            # If tag info but not grouping, then for each tag this block has check use the value defined
-            # for the tag in the shared_tags info coming in. If theres no info for the tag, it's kept empty
-            # and filled out by the user next.
+                                new_tag_value = None
 
-            # If tag_info and grouping, 
+                                break
+
+                            elif new_tag_value == 'all':
+
+                                break
+
+                            for possible_val in group_tags[base_tag]:
+
+                                if str(possible_val) == new_tag_value:
+
+                                    new_tag_value = type(group_tags[base_tag][0])(new_tag_value)
+
+                                    break
+
+                            print(f"{new_tag_value} is not a valid value. Redoing...")
+
+
+                        self.tag_info[base_tag] = new_tag_value
 
         else:
 
@@ -234,6 +251,7 @@ class block:
         
     def parse(self):
         pass # Just parse block name and the tags. Ratio parsing is something that the replace class (ratio class?) adds on.
+        
         
 
 class replacer(block):
@@ -249,6 +267,11 @@ class replacer(block):
         else:
 
             self.ratio = float(input("Put the ratio of how much this block should replace as part of a whole: "))
+
+    
+    def parse(self):
+
+        super().parse(self)
 
 
 # Example of shared tag dict: 
