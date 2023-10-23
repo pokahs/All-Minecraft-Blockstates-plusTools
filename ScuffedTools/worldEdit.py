@@ -191,16 +191,12 @@ class block:
             # We have now verified the block to be a valid block. (or it isnt but checkvalidity was off)
 
             # The next step depends on if there is merging tag info, and if it group based or not.
-            # NOTE I gotta add a group attr to each block in grouped_block_data for this shit to work
+
             if shared_tags:
 
                 if self.group in shared_tags:
                     for tag in shared_tags[self.group]:
-                        # Not sure exactl what "tag" will be, if its like half : top or just like half or whatever
-                        # but in this state you just add each tag to the current tag_info, since rn every single tag will be defined
-                        # with this system if we entered this stage we dont need to ask user for anything
-                        print(tag) # for now just printing to check ltr, but gotta add it to tag_info
-                        print(shared_tags[self.group][tag])
+
                         self.tag_info[tag] = shared_tags[self.group][tag]
 
                 else: # The group's tags hasnt been defined, so now we ask user for each.
@@ -249,7 +245,41 @@ class block:
 
             raise ValueError("The block name '{self.name}' is not a legitimate block according to the block data fetched.")
         
-    def parse(self):
+    def parse(self, all_tags_filled=None):
+
+        # ALL Procedure:
+        # There are 2 types of all defined tags:
+
+        # An indepdent all tag: It is either any target block, or it is a replacer block where the target block does not the same tag defined as all.
+        # Indepdent is prob more common
+
+        # A dependent all tag: Only a replacer blocks tag that mimics the target blocks exact same tag.
+
+        # Flow:
+
+        # Add block name. simple lol
+
+        # Now add each tag and its value.
+        # This is easy for most tags;
+        # Normal tags you just add name = value
+        # None defined tags you just dont do anything
+        # But then the all tags come in those bithces
+
+        # There will be a global looped nested for loop in the command parser thing
+        # It goes:
+        # For each different all tag (differentiating same tags but dif groups), cycle the tag's values and parse a command with that
+        # E.g if you have a command prompt thats 3 all tags with values 2, 3, 4, thats gonna end up as 24 commands pretty sure.
+
+        # Not sure how ratios gonna interpret all this shit. cuz say like no all tags in target and just indepdent all tags in replacers.
+        # Then you might one block replaced equally  by 3 dif blocks, but one block has one state, one has 2 states, and one has 5. 
+        # Thats gonna become 7 commands, with the ratios being like 1/3, 1/6 * 2, 1/15 * 5. you smell me?
+
+        # Not sure how subclass functions can access like data here, but the replacer subclass like function of this is gonna need to access
+        # some saved data here like "total ratios" or something, which you know inital ratio combined with now how many types of the block there
+        # are if an all tag influenced. Howveer, this wouldnt be needed i think in parts where it is a dependent all tag you know? cuz then theres 
+        # dif versions of the target that just kinda like cycle flow for the replacer matched with it. GYATTDAM THIS IS A LOT AAAAAAAAAAAAA
+
+        # gonna fard
         pass # Just parse block name and the tags. Ratio parsing is something that the replace class (ratio class?) adds on.
         
         
