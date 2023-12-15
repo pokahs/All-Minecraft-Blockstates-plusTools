@@ -134,15 +134,14 @@ else:
 
 class replaceCommand:
 
-    def __init__(self, auto_ratio=True, shared_tags=True) -> None:
+    def __init__(self, auto_ratio=True, shared_tags=True):
+
+
+        self.shared_tags = shared_tags if type(shared_tags) is dict else {} # Will happen unless user inputted a dictionary with tags values already
         
         self.target = block(name=input("Block to replace: ").lower())
 
-        self.shared_tags = shared_tags
-
-        if not type(self.shared_tags) is dict: # Will happen unless user inputted a dictionary with tags values already
-
-            self.shared_tags = {}
+        self.shared_tags.update(self.target.tag_info)
 
 
         self.replacers = []
@@ -151,10 +150,7 @@ class replaceCommand:
 
             self.replacers.append(replacer(input("Replacer block: "), auto_ratio=auto_ratio, shared_tags=shared_tags))
 
-            if self.replacers[-1].newDefiner:
-
-                self.shared_tags[self.replacers[-1].group] = self.replacers[-1].tag_info
-
+            self.shared_tags.update(self.replacers[-1].tag_info)
 
             if not len(input("Add another replacer? ")):
                 break
@@ -229,6 +225,8 @@ class block:
                                 break
 
                             for possible_val in group_tags[base_tag]:
+
+                                print(str(possible_val))
 
                                 if str(possible_val) == new_tag_value:
 
@@ -310,3 +308,4 @@ dic = { "axis": { "axis": "x"}}
 if __name__ == "__main__":
 
     blok = block("campfire", shared_tags=dic)
+    print(blok.tag_info)
